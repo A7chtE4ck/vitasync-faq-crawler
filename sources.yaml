@@ -1,0 +1,20 @@
+# Quellen für den FAQ-Crawler. Lizenz je Quelle vor Nutzung im Produkt prüfen!
+# prefixes: nur URLs, deren Pfad damit beginnt, werden gecrawlt.
+# max_pages: Obergrenze pro Quelle (Höflichkeit + Laufzeit).
+settings:
+  user_agent: "VitaSyncFAQBot/1.0 (+https://github.com/A7chtE4ck/vitasync-faq-crawler)"
+  delay_seconds: 1.5
+  max_total_pages: 6000
+  target_count: 10000
+  languages: [de]
+sources:
+  - {name: "gesund.bund.de (BMG)", base: "https://gesund.bund.de", prefixes: ["/"], max_pages: 1200, license: "unklar - pruefen"}
+  - {name: "Krebsinformationsdienst (DKFZ)", base: "https://www.krebsinformationsdienst.de", prefixes: ["/"], max_pages: 1200, license: "unklar - pruefen"}
+  - {name: "infektionsschutz.de (BZgA)", base: "https://www.infektionsschutz.de", prefixes: ["/"], max_pages: 600, license: "unklar - pruefen"}
+  - {name: "impfen-info.de (BZgA)", base: "https://www.impfen-info.de", prefixes: ["/"], max_pages: 600, license: "unklar - pruefen"}
+  - {name: "RKI FAQ", base: "https://www.rki.de", prefixes: ["/SharedDocs/FAQ/", "/DE/Content/"], max_pages: 800, license: "unklar - pruefen"}
+  - {name: "DGE", base: "https://www.dge.de", prefixes: ["/"], max_pages: 500, license: "unklar - pruefen"}
+  - {name: "Deutsche Herzstiftung", base: "https://herzstiftung.de", prefixes: ["/"], max_pages: 600, license: "unklar - pruefen"}
+  - {name: "Patienten-Information.de (AeZQ)", base: "https://www.patienten-information.de", prefixes: ["/"], max_pages: 500, license: "unklar - pruefen"}
+  - {name: "kindergesundheit-info.de (BZgA)", base: "https://www.kindergesundheit-info.de", prefixes: ["/"], max_pages: 600, license: "unklar - pruefen"}
+  - {name: "Deutsche Krebshilfe", base: "https://www.krebshilfe.de", prefixes: ["/"], max_pages: 500, license: "unklar - pruefen"}

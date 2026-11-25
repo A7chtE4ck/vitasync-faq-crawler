@@ -1,0 +1,46 @@
+name: KI-Pruefung der FAQs
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Nur die ersten N unbearbeiteten Eintraege pruefen (0 = alle). Fuer einen Test z. B. 100."
+        default: "100"
+      model:
+        description: "Claude-Modell"
+        default: "claude-haiku-5-5"
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: KI-Pruefung
+        env:
+          # HIER wird dein API-Key verwendet. Eintragen unter:
+          # Repo -> Settings -> Secrets and variables -> Actions -> New repository secret -> Name: ANTHROPIC_API_KEY
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python classify_ai.py --limit ${{ inputs.limit }} --model ${{ inputs.model }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-check
+          path: |
+            faqs_ai_checked.json
+            faqs_ai_rejected.json
+            ai_report.json
+            ai_check/results.jsonl
+      - name: Ergebnis committen
+        if: always()
+        run: |
+          git config user.name "faq-bot"
+          git config user.email "faq-bot@users.noreply.github.com"
+          git add faqs_ai_checked.json faqs_ai_rejected.json ai_report.json ai_check/results.jsonl
+          git commit -m "KI-Pruefung Ergebnis" || echo "nichts zu committen"
+          git pull --rebase -q || true
+          git push

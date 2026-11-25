@@ -11,7 +11,11 @@ from reportlab.platypus.tableofcontents import TableOfContents
 
 pdfmetrics.registerFont(TTFont("DV", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"))
 pdfmetrics.registerFont(TTFont("DVB", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"))
-d = json.load(open("faqs_clean.json", encoding="utf-8"))
+import sys, os
+SRC = sys.argv[1] if len(sys.argv) > 1 else "faqs_clean.json"
+OUT = sys.argv[2] if len(sys.argv) > 2 else "/home/claude/VitaSync_Gesundheits-FAQs.pdf"
+TITLE_SUFFIX = sys.argv[3] if len(sys.argv) > 3 else ""
+d = json.load(open(SRC, encoding="utf-8"))
 by = collections.OrderedDict()
 for e in d: by.setdefault(e["source"], []).append(e)
 
@@ -24,7 +28,7 @@ T = ParagraphStyle("t", fontName="DVB", fontSize=22, leading=28, spaceAfter=10)
 class Doc(BaseDocTemplate):
     def __init__(s, fn):
         super().__init__(fn, pagesize=A4, leftMargin=18*mm, rightMargin=18*mm, topMargin=16*mm, bottomMargin=16*mm,
-                         title="VitaSync – Gesundheits-FAQs", author="VitaSync")
+                         title="VitaSync – Gesundheits-FAQs" + TITLE_SUFFIX, author="VitaSync", pageCompression=1)
         s.addPageTemplates([PageTemplate(id="p", frames=[Frame(s.leftMargin, s.bottomMargin, s.width, s.height, id="f")], onPage=s.foot)])
     def foot(s, c, doc):
         c.setFont("DV", 7); c.setFillColor(colors.grey)
@@ -35,8 +39,8 @@ class Doc(BaseDocTemplate):
             lvl, text, key = f._toc
             s.notify("TOCEntry", (lvl, text, s.page)); s.canv.bookmarkPage(key); s.canv.addOutlineEntry(text, key, lvl, 0)
 
-story = [Paragraph("VitaSync – Gesundheits-FAQs", T),
-         Paragraph(f"{len(d)} geprüfte Frage-Antwort-Paare · {sum(e['lang']=='de' for e in d)} deutsch, {sum(e['lang']=='en' for e in d)} englisch<br/>"
+story = [Paragraph("VitaSync – Gesundheits-FAQs" + TITLE_SUFFIX, T),
+         Paragraph(f"{len(d)} geprüfte Frage-Antwort-Paare (IDs {d[0]['id']}–{d[-1]['id']}) · {sum(e['lang']=='de' for e in d)} deutsch, {sum(e['lang']=='en' for e in d)} englisch<br/>"
                    "Stand: 25.11.2026 · Inhalte stammen von den jeweils genannten Quellen; Lizenzen vor kommerzieller Nutzung prüfen.", A),
          Spacer(1, 10)]
 toc = TableOfContents(); toc.levelStyles = [ParagraphStyle("t0", fontName="DV", fontSize=10, leading=14)]
@@ -50,4 +54,4 @@ for i, (src, items) in enumerate(by.items()):
             Paragraph(escape(e["answer"]), A),
             Paragraph(f"{e['lang'].upper()} · {escape(e['license'])} · {escape(e['url'])}", M)]))
     story.append(PageBreak())
-Doc("/home/claude/VitaSync_Gesundheits-FAQs.pdf").multiBuild(story)
+Doc(OUT).multiBuild(story)

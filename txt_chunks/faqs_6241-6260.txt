@@ -1,0 +1,59 @@
+6241. What are the different ways a genetic disorder can be inherited?
+Some genetic conditions are passed down through families (inherited) in one of several patterns, depending on the specific gene involved. Patterns of inheritance can include: Dominant means you only need one changed gene to cause the condition. Recessive means you need two changed copies of the gene (one from each parent) for the condition to occur. X-linked conditions involve genes located on the X chromosome. These conditions often affect males more frequently. Mitochondrial conditions are passed down by the mother.
+
+6242. How are genetic disorders diagnosed?
+Your health care provider may check for a genetic condition based on: A physical examination. Your personal medical history. Your family health history. Laboratory tests, including genetic testing. NIH: National Library of Medicine
+
+6243. Who is at risk for muscle cramps?
+Anyone can get muscle cramps, but they are more common in some people: Older adults People who are overweight Athletes Pregnant women People with certain medical conditions, such as thyroid and nerve disorders
+
+6244. When do I need to see a health care provider for muscle cramps?
+Muscle cramps are usually harmless, and they go away after a few minutes. But you should contact your health care provider if the cramps: Are severe Happen frequently Don't get better with stretching and drinking enough fluids Last a long time Are accompanied by swelling, redness, or a feeling of warmth Are accompanied by muscle weakness
+
+6245. What are the treatments for muscle cramps?
+You usually don't need treatment for muscle cramps. You may be able to find some relief from cramps by: Stretching or gently massaging the muscle Applying heat when the muscle is tight and ice when the muscle is sore Getting more fluids if you are dehydrated If another medical problem is causing the cramps, treating that problem will likely help. There are medicines that providers sometimes prescribe to prevent cramps, but they are not always effective and may cause side effects. Talk to your provider about the risks and benefits of medicines.
+
+6246. Can muscle cramps be prevented?
+To prevent muscle cramps, you can: Stretch your muscles, especially before exercising. If you often get leg cramps at night, stretch your leg muscles before bed. Drink plenty of liquids. If you do intense exercise or exercise in the heat, sports drinks can help you replace electrolytes.
+
+6247. What is C. diff?
+C. diff is a bacterium that can cause diarrhea and more serious intestinal conditions such as colitis. You may see it called other names, such as Clostridioides difficile (the new name), Clostridium difficile (an older name), and C. diff icile. It causes close to half a million illnesses each year.
+
+6248. What causes C. diff infections?
+C. diff bacteria are commonly found in the environment, but people usually only get C. diff infections when they are taking antibiotics. That's because antibiotics not only wipe out bad germs, but they also kill the good germs that protect your body against infections. The effect of antibiotics can last as long as several months. If you come in contact with C. diff germs during this time, you can get sick. You are more likely to get a C. diff infection if you take antibiotics for more than a week. C. diff spreads when people touch food, surfaces, or objects that are contaminated with feces (poop) from a person who has C. diff.
+
+6249. Who is more likely to get a C. diff infection?
+You are at more likely to get a C. diff infection if you: Are taking antibiotics Are 65 or older Recently stayed in a hospital or nursing home Have a weakened immune system Have had a previous infection with C. diff or were exposed to it
+
+6250. What are the symptoms of C. diff infections?
+The symptoms of C. diff infections include: Diarrhea (loose, watery stools) or frequent bowel movements for several days Fever Stomach tenderness or pain Loss of appetite Nausea Severe diarrhea causes you to lose a lot of fluids. This can put you at risk for dehydration.
+
+6251. How are C. diff infections diagnosed?
+If you have been taking antibiotics recently and have symptoms of a C. diff infection, you should see your health care provider. Your provider will ask about your symptoms and do a lab test of your stool. In some cases, you might also need an imaging test such as an x-ray or CT scan to check for complications.
+
+6252. What are the treatments for C. diff infections?
+Certain antibiotics can treat C. diff infections. If you were already taking a different antibiotic when you got C. diff, your provider may ask you to stop taking that one. If you have a severe case, you may need to stay in the hospital. If you have very severe pain or serious complications, you may need surgery to remove the diseased part of your colon. About 1 in 6 people who have had a C. diff infection will get it again within the following 2 to 8 weeks. This is called recurrent C. diff. It could be that your original infection came back or that you have a new infection. Contact your provider if your symptoms come back. For people who keep getting C. diff infections, treatments such as fecal microbiota transplants (FMT) have shown promising results. FMT uses stool (or bacteria from stool) from a healthy donor to try to restore the balance of healthy bacteria in your intestines.
+
+6253. Can C. diff infections be prevented?
+There are steps you can take to try to prevent getting or spreading C. diff: Wash your hands with soap and water after you use the bathroom and before you eat. If you have diarrhea, clean the bathroom that you used before anyone else uses it. Use bleach mixed with water or another disinfectant to clean the toilet seat, handle, and lid. Health care providers can also help prevent C. diff infections by taking infection control precautions and improving how they prescribe antibiotics. Centers for Disease Control and Prevention
+
+6254. What are the types of heart disease?
+There are many different types of heart disease. Some you may be born with, called congenital heart disease. Other types develop during your lifetime. Coronary artery disease (also called coronary heart disease) is the most common type of heart disease. It happens slowly over time when a sticky substance called plaque builds up in the arteries that supply your heart muscle with blood. The plaque narrows or blocks blood flow to the heart muscle and can lead to other heart problems: Angina - chest pain from lack of blood flow Heart attacks - when part of the heart muscle dies from loss of blood flow Heart failure - when your heart can't pump enough blood to meet your body's needs Arrhythmia - a problem with the rate or rhythm of your heartbeat Other types of heart diseases may affect your heart valves or heart muscle ( cardiomyopathy ).
+
+6255. Who is more likely to develop heart diseases?
+There are many different factors that can make you more likely to develop heart disease. Some of these factors you can change, but others you cannot. Age. Your risk of heart disease goes up as you get older. Sex. Some factors may affect heart disease risk differently in women than in men. Family history and genetics. A family history of early heart disease raises your risk. And research has shown that some genes are linked to a higher risk of certain heart diseases. Race/ethnicity. Heart disease is the leading cause of death in most racial and ethnic groups in the United States. However, certain groups have higher risks than others. This includes Black people, White people, and American Indian/Alaska Native people. Lifestyle habits. Over time, unhealthy lifestyle habits can raise your risk of heart disease. These can include: Eating a diet high in saturated fats, refined carbohydrates, and salt. Not getting enough physical activity. Drinking too much alcohol. Smoking and exposure to secondhand smoke. Too much stress. Having other medical conditions can raise your risk of heart diseases. These conditions include: High blood pressure. High cholesterol levels. Diabetes. Obesity. Autoimmune and inflammatory diseases. Chronic kidney disease. Metabolic syndrome.
+
+6256. What are the symptoms of heart disease?
+Your symptoms will depend on the type of heart disease you have. You may not have symptoms at first. In some cases, you may not know you have heart disease until you have a complication such as a heart attack.
+
+6257. How are heart diseases diagnosed?
+To find out if you have heart disease, your health care provider will: Ask about your medical history, including your symptoms Ask about your family health history, including relatives who have had heart disease Do a physical exam Likely run heart tests and blood tests In some cases, your provider may refer you to a cardiologist (a doctor who specializes in heart diseases) for tests, diagnosis, and care.
+
+6258. What are the treatments for heart disease?
+Treatment plans for heart disease depend on the type of heart disease you have, how serious your symptoms are, and what other health conditions you have. Possible treatments may include: Heart-healthy lifestyle changes Medicines Procedures or surgeries Cardiac rehabilitation
+
+6259. Can heart diseases be prevented?
+You may be able to lower your risk of certain heart diseases by making heart-healthy lifestyle changes and managing any other medical conditions you have. NIH: National Heart, Lung, and Blood Institute
+
+6260. Does everyone who takes drugs become addicted?
+Not everyone who uses drugs becomes addicted. Everyone's bodies and brains are different, so their reactions to drugs can also be different. Some people may become addicted quickly, or it may happen over time. Other people never become addicted. Whether or not someone becomes addicted depends on many factors. They include genetic, environmental, and developmental factors.

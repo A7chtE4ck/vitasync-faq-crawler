@@ -1,0 +1,33 @@
+{
+  "input": 7496,
+  "clean": 7066,
+  "rejected": {
+    "video_teaser": 84,
+    "navigation_or_link_teaser": 129,
+    "context_dependent": 64,
+    "too_short": 86,
+    "off_topic": 64,
+    "duplicate_after_cleanup": 2,
+    "language_mismatch": 1
+  },
+  "review_flagged_but_kept": {
+    "no_overlap": 142,
+    "dated_reference": 97
+  },
+  "clean_by_source": {
+    "gesund.bund.de (BMG)": 3388,
+    "Krebsinformationsdienst (DKFZ)": 1191,
+    "CDC": 8,
+    "NHS": 358,
+    "WHO Q&A": 7,
+    "MedlinePlus (NIH)": 1613,
+    "infektionsschutz.de (BZgA)": 296,
+    "DGE": 86,
+    "kindergesundheit-info.de (BZgA)": 118,
+    "Deutsche Krebshilfe": 1
+  },
+  "clean_by_lang": {
+    "de": 5079,
+    "en": 1987
+  }
+}

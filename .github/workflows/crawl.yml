@@ -4,25 +4,58 @@ on:
 permissions:
   contents: write
 jobs:
-  crawl:
+  plan:
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          pip install pyyaml
+          python -c "import yaml,json; s=yaml.safe_load(open('sources.yaml'))['sources']; print('matrix='+json.dumps({'i':list(range(len(s)))}))" >> "$GITHUB_OUTPUT"
+  crawl:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python crawl.py
+      - run: python crawl.py --source ${{ matrix.i }}
       - uses: actions/upload-artifact@v4
         if: always()
+        with:
+          name: part-${{ matrix.i }}
+          path: parts/
+  merge:
+    needs: crawl
+    if: always() && needs.plan.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+      - run: python merge.py
+      - uses: actions/upload-artifact@v4
         with:
           name: faqs
           path: |
             faqs.json
             report.json
       - name: Ergebnis committen
-        if: always()
         run: |
           git config user.name "faq-bot"
           git config user.email "faq-bot@users.noreply.github.com"

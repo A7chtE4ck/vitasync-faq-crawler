@@ -4,8 +4,6 @@
 settings:
   user_agent: "VitaSyncFAQBot/1.0 (+https://github.com/A7chtE4ck/vitasync-faq-crawler)"
   delay_seconds: 1.5
-  max_total_pages: 6000
-  target_count: 10000
   languages: [de, en]
 sources:
   - {name: "gesund.bund.de (BMG)", base: "https://gesund.bund.de", prefixes: ["/"], max_pages: 1200, license: "unklar - pruefen"}

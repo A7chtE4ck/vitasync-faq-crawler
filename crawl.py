@@ -206,29 +206,34 @@ def add(q, a, src, url, lang):
 
 
 def main():
-    total = 0
+    import argparse, os
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source", type=int, help="Index der Quelle in sources.yaml (sonst alle nacheinander)")
+    a = ap.parse_args()
+    idx = [a.source] if a.source is not None else range(len(CFG["sources"]))
+    os.makedirs("parts", exist_ok=True)
     try:
-        for src in CFG["sources"]:
+        for si in idx:
+            src = CFG["sources"][si]
             urls = [u for u in sitemap_urls(src) if in_scope(u, src)]
             if not urls:
                 urls = [src["base"] + src["prefixes"][0]]
             todo, seen, n = collections.deque(urls), set(urls), 0
             print(f"== {src['name']}: {len(urls)} Start-URLs", flush=True)
-            while todo and n < src["max_pages"] and total < ST["max_total_pages"] and len(KEPT) < ST["target_count"]:
+            while todo and n < src["max_pages"]:
                 url = todo.popleft()
                 body = get(url)
                 if not body:
                     continue
                 n += 1
-                total += 1
                 STATS["pages"] += 1
                 soup = BeautifulSoup(body, "lxml")
-                for q, a in extract(soup):
-                    q, a = clean(q), truncate(clean(a))
+                for q, ans in extract(soup):
+                    q, ans = clean(q), truncate(clean(ans))
                     STATS["raw_pairs"] += 1
-                    lang = accept(q, a)
+                    lang = accept(q, ans)
                     if lang:
-                        add(q, a, src, url, lang)
+                        add(q, ans, src, url, lang)
                 if len(seen) < src["max_pages"] * 5:  # Link-Fallback, bleibt im Scope
                     for l in soup.find_all("a", href=True):
                         u = urldefrag(urljoin(url, l["href"]))[0]
@@ -238,10 +243,9 @@ def main():
                 if n % 100 == 0:
                     print(f"  {n} Seiten, {len(KEPT)} FAQ", flush=True)
     finally:
-        out = [{"id": i + 1, **e} for i, e in enumerate(KEPT)]
-        json.dump(out, open("faqs.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        STATS["final"] = len(out)
-        json.dump(dict(STATS), open("report.json", "w"), indent=2)
+        tag = a.source if a.source is not None else "all"
+        json.dump(KEPT, open(f"parts/part_{tag}.json", "w", encoding="utf-8"), ensure_ascii=False)
+        json.dump(dict(STATS), open(f"parts/stats_{tag}.json", "w"), indent=2)
         print(json.dumps(dict(STATS), indent=2))
 
 

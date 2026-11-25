@@ -2,7 +2,7 @@
 
 Sammelt deutsch- und englischsprachige Gesundheits-FAQs (Antworten in Originalsprache, Feld `lang`) für die VitaSync-RAG-Datenbank.
 
-**Starten:** Tab *Actions* → *FAQ crawlen* → *Run workflow*. Ergebnis: `faqs.json` + `report.json` im Repo (und als Artifact).
+**Starten:** Tab *Actions* → *FAQ crawlen* → *Run workflow*. Jede Quelle läuft als eigener paralleler Job (Matrix), ein Merge-Job dedupliziert quellenübergreifend. Ergebnis: `faqs.json` + `report.json` im Repo (und als Artifact).
 
 Felder pro Eintrag: `id, question, answer, source, url, license, lang`.
 

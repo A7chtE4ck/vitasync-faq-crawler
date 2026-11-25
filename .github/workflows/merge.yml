@@ -1,0 +1,40 @@
+name: Nur mergen
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "ID eines (auch abgebrochenen) Crawl-Runs, dessen part-* Artifacts gemergt werden"
+        required: true
+permissions:
+  contents: write
+  actions: read
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: part-*
+          path: parts
+          merge-multiple: true
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - run: python merge.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: faqs
+          path: |
+            faqs.json
+            report.json
+      - name: Ergebnis committen
+        run: |
+          git config user.name "faq-bot"
+          git config user.email "faq-bot@users.noreply.github.com"
+          git add faqs.json report.json
+          git commit -m "FAQ-Merge aus Run ${{ inputs.run_id }}" || echo "nichts zu committen"
+          git push

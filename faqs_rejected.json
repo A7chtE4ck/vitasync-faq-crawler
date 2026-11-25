@@ -1,8 +1,48 @@
 [
  {
+  "id": 1,
+  "question": "Notruf Sie benötigen ärztliche Hilfe?",
+  "answer": "In potenziell lebensbedrohlichen Situationen und Notfällen alarmieren Sie umgehend den Rettungsdienst. Notrufnummer 112 Medizinische Hilfe des ärztlichen Bereitschaftsdienstes in der Nacht, am Wochenende und an Feiertagen. Telefonnummer 116117 Finden Sie eine Arztpraxis oder ein Krankenhaus mit dem für Sie passenden medizinischen Leistungsangebot.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "site_not_health_faq"
+ },
+ {
+  "id": 2,
+  "question": "Welche Daten erheben wir bei Ihrem Besuch auf gesund.bund.de?",
+  "answer": "Personenbezogene Daten sind nach der Datenschutz-Grundverordnung (Art. 4 Nr. 1 DSGVO) alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen. Als identifizierbar wird eine natürliche Person angesehen, die direkt oder indirekt – insbesondere mittels Zuordnung zu einer Kennung wie einem Namen, zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung – identifiziert werden kann. Alle erhobenen Daten werden ausschließlich für die Nutzung und Verbesserung des Nationalen Gesundheitsportals verarbeitet, das für die Bürgerinnen und Bürger als zentrales deutsches Internetportal für Informationen rund um Fragen zur Gesundheit zur Verfügung steht, um somit einen wichtigen Beitrag zur Steigerung der Gesundheitskompetenz in der Bevölkerung zu leisten. Folgende personenbezogene Daten werden bei Ihrem Besuch auf dem Gesundheitsportal für dessen optimale technische Bereitstellung erfasst: Ihre IP-Adresse Datum und Uhrzeit Ihres Abrufs Protokollversion Verbindungsart des Browserzugriffs, die anzeigt, ob eine Verbindung verschlüsselt oder unverschlüsselt stattfindet (HTTP-Methode) Website, über die Sie zur aktuellen Website gekommen sind (Referrer) User-Agent-String (beinhaltet in der Regel Name und Version des Browsers und ggf. des Betriebssystems des Zugriffsgerätes) die von Ihnen aufgerufene Zieladresse Name der abgerufenen Datei und übertragene Datenmenge in Byte Meldung, ob der Abruf erfolgreich war (HTTP Status Code) Kontaktdaten aus Kontaktformular oder Kontaktaufnahme (E-Mail-Adresse, Name, Nachrichteninhalt) Zur bedarfsorientierten Bereitstellung der Informationen und zur Optimierung der Funktionen des Gesundheitsportals wertet das BMG anonyme Nutzungsinformationen zu statistischen Zwecken aus. Folgende Informationen werden dabei erfasst: die URL, von der aus das Gesundheitsportals oder eine seiner Unterseiten aufgerufen wird (z.B. eine Suchmaschine oder eine Verlinkung von einer anderen Webseite) die aufgerufenen URLs des Gesundheitsportals die Verweildauer auf den jeweiligen Webseiten des Gesundheitsportals die eingegebenen Suchbegriffe Informationen, die vom Zugriffsgerät des Nutzers übermittelt werden (Betriebssystem Bildschirmauflösung, Browser, Spracheinstellung des Browsers) Dies erfolgt mit dem Webanalyse-Tool \"Matomo\" (ehemals \"PIWIK\"), das auch auf den Servern des ITZBund eingesetzt wird.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/datenschutz",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "site_not_health_faq"
+ },
+ {
+  "id": 3,
+  "question": "Welche personenbezogenen Daten speichern wir über Ihren Besuch hinaus?",
+  "answer": "Über die Dauer Ihres Besuchs auf dem Gesundheitsportal hinaus werden auf dem Server die folgenden Daten in einer sogenannten Protokolldatei gespeichert: die ersten zwei Oktette Ihrer IP-Adresse, (also z.B. 192.168.XXX.XXX) Datum und Uhrzeit Ihres Abrufs Protokollversion HTTP-Methode (Verbindungsart des Browserzugriffs, die anzeigt, ob eine Verbindung verschlüsselt oder unverschlüsselt stattfindet) Referrer (Website, über die Sie zur aktuellen Website gekommen sind) User-Agent-String (beinhaltet in der Regel Name und Version des Browsers und ggf. des Betriebssystems des Zugriffsgerätes) die von Ihnen aufgerufene Zieladresse Name der abgerufenen Datei und übertragene Datenmenge in Byte Meldung, ob der Abruf erfolgreich war (HTTP-Status-Code) Die Protokolldateien legen wir zu dem Zweck an, eine Fehleranalyse bei technischen Problemen durchführen und das Gesundheitsportal warten zu können. Die Protokolldateien werden für 30 Tage gespeichert und danach automatisch gelöscht. Die vom Webanalyse-Tool „Matomo“ erfassten anonymen Nutzungsdaten werden über Ihren Besuch hinaus gespeichert, um eine statistische Auswertung auch über einen längerfristigen Zeitraum vornehmen und damit nachvollziehen zu können, inwieweit die Funktionalitäten des Gesundheitsportals optimiert werden sollten. Die statistische Auswertung erfolgt durch das BMG. Eine Weitergabe der statistischen Daten an dritte Stellen erfolgt nicht. Übermitteln Sie uns eine Nachricht über das Formular „Barriere melden“ oder per E-Mail, werden die von Ihnen damit übermittelten Daten im BMG für die Dauer der Bearbeitung des Vorgangs weiter verarbeitet und danach gelöscht.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/datenschutz",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "site_not_health_faq"
+ },
+ {
+  "id": 4,
+  "question": "Findet eine Weitergabe Ihrer Daten an Dritte statt?",
+  "answer": "Wir geben personenbezogene Daten ausschließlich in folgenden Fällen an Dritte außerhalb des BMG weiter: Sie senden uns eine Anfrage/E-Mail, die spezifische technische Fragen zum Gesundheitsportal enthält; diese wird im Einzelfall ggf. vom BMG an den Help-Desk des technischen Dienstleisters zur dortigen inhaltlichen Bearbeitung weitergeleitet. Dazu bitten wir vor Absendung des Kontaktformulars um Ihre ausdrückliche Einwilligung. Das BMG kann im Einzelfall gesetzlich verpflichtet sein, den Strafverfolgungsbehörden (vgl. § 23 Abs. 1 Nr. 3 und 4 BDSG) oder dem Bundesamt für Sicherheit in der Informationstechnik (BSI; vgl. § 5 Abs. 1 S. 4 BSIG) Zugang zu personenbezogenen Daten zu gewähren, wenn dies im Zusammenhang mit der Verfolgung von Straftaten oder zur Abwehr von Angriffen auf die IT-Infrastruktur des Bundes erforderlich ist. Diese Seite nutzt über eine API den Kartendienst Google Maps. Anbieter ist die Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Zur Nutzung der Funktionen von Google Maps ist es notwendig, Ihre IP Adresse zu speichern. Diese Informationen werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. Der Anbieter dieser Seite hat keinen Einfluss auf diese Datenübertragung. Die Nutzung von Google Maps erfolgt im Interesse einer ansprechenden Darstellung unserer Online-Angebote und an einer leichten Auffindbarkeit der von uns auf der Website angegebenen Orte. Rechtsgrundlage für die Verarbeitung der Daten ist Artikel 6 Abs. 1 lit. a DSGVO. Mehr Informationen zum Umgang mit Nutzerdaten finden Sie in der Datenschutzerklärung von Google: policies.google.com/privacy Darüber hinaus werden von uns keine Daten an Dritte weitergegeben.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/datenschutz",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "site_not_health_faq"
+ },
+ {
   "id": 8,
   "question": "Was ist Vitamin D und wofür ist es wichtig?",
-  "answer": "Erfahren Sie in diesem Video, was Vitamin D ist und wofür der Körper Vitamin D braucht. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, was Vitamin D ist und wofür der Körper Vitamin D braucht.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/vitamin-d-mangel",
   "license": "unklar - pruefen",
@@ -12,7 +52,7 @@
  {
   "id": 9,
   "question": "Was ist der Unterschied zwischen einer Erkältung und Grippe?",
-  "answer": "Das folgende Video berichtet über die Unterschiede zwischen einer Erkältung und einer Grippe: die verschiedenen Auslöser, Symptome, Behandlungsmöglichkeiten und Möglichkeiten eines schwereren Verlaufs. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über die Unterschiede zwischen einer Erkältung und einer Grippe: die verschiedenen Auslöser, Symptome, Behandlungsmöglichkeiten und Möglichkeiten eines schwereren Verlaufs.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/grippe-influenza",
   "license": "unklar - pruefen",
@@ -32,7 +72,7 @@
  {
   "id": 11,
   "question": "Warum ist es sinnvoll, meine Entscheidung festzuhalten?",
-  "answer": "Erfahren Sie in diesem Video, wie man die Entscheidung zur Organ- und Gewebespende festhalten kann und warum das wichtig ist. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie man die Entscheidung zur Organ- und Gewebespende festhalten kann und warum das wichtig ist.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/organspende",
   "license": "unklar - pruefen",
@@ -42,7 +82,7 @@
  {
   "id": 13,
   "question": "Mit dem Rauchen aufhören – Wann erholt sich der Körper?",
-  "answer": "Dieses Video erklärt, wie ein Rauchstopp gelingen kann und zu welchen positiven Effekten dieser führt. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Dieses Video erklärt, wie ein Rauchstopp gelingen kann und zu welchen positiven Effekten dieser führt.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/lungenkrebs",
   "license": "unklar - pruefen",
@@ -72,7 +112,7 @@
  {
   "id": 16,
   "question": "Wie kann man Lebensmittelinfektionen vorbeugen?",
-  "answer": "Das folgende Video erklärt, was man tun kann, um eine Lebensmittelinfektion zu vermeiden. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video erklärt, was man tun kann, um eine Lebensmittelinfektion zu vermeiden.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/campylobacteriose",
   "license": "unklar - pruefen",
@@ -92,7 +132,7 @@
  {
   "id": 18,
   "question": "Wie beugen Senioren Stürzen vor?",
-  "answer": "Im folgenden Video erfahren Sie, was Seniorinnen und Senioren tun können, um Stürze im Alltag zu vermeiden. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, was Seniorinnen und Senioren tun können, um Stürze im Alltag zu vermeiden.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/sehen-im-alter",
   "license": "unklar - pruefen",
@@ -230,6 +270,16 @@
   "reason": "video_teaser"
  },
  {
+  "id": 36,
+  "question": "Welche Untersuchungsverfahren können zum Einsatz kommen?",
+  "answer": "Bei manchen genetischen Untersuchungen werden nur bestimmte Teile des Erbmaterials gezielt nach einer bestimmten Veränderung im Erbgut durchsucht. Bei der Genomanalyse wird hingegen die gesamte DNA eines Menschen untersucht. Die automatisierte Bildauswertung kann wertvolle Hinweise auf das Vorliegen einer erblichen Erkrankung liefern.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/special/genetische-untersuchungen",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 40,
   "question": "Die ePA für alle – Wo finde ich weitere Informationen?",
   "answer": "In der ePA können Sie wichtige Gesundheitsdokumente speichern. Die „ePA für alle“ wird von den gesetzlichen Krankenkassen automatisch für alle Versicherten angelegt, die dem nicht widersprechen. Die ePA bietet vielfältige Möglichkeiten und kann Ihren Vorstellungen entsprechend verwaltet werden. Viele Antworten auf Fragen rund um die Einführung der „ePA für alle“ sowie zur Verwaltung der ePA finden Sie auch auf der Webseite des Bundesgesundheitsministeriums.",
@@ -252,7 +302,7 @@
  {
   "id": 43,
   "question": "Was ist eine Allergie?",
-  "answer": "Im folgenden Video erfahren Sie, wodurch eine Allergie ausgelöst werden kann und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, wodurch eine Allergie ausgelöst werden kann und welche Symptome auftreten können.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/allergien",
   "license": "unklar - pruefen",
@@ -260,19 +310,29 @@
   "reason": "video_teaser"
  },
  {
+  "id": 46,
+  "question": "Was sollte ich noch wissen?",
+  "answer": "Schwere Allergien, die das Risiko einer lebensbedrohlichen anaphylaktischen Reaktion bergen, können im Notfalldatensatz auf der elektronischen Gesundheitskarte gespeichert werden. Mehr Informationen zur anaphylaktischen Reaktion lesen Sie auf gesundheitsinformation.de. Aktuelle Forschungen beschäftigen sich derzeit verstärkt mit dem Wechselspiel zwischen Immunsystem und Umwelteinflüssen. Aus den gewonnenen Erkenntnissen sollen neue Ideen zur Vorbeugung und Therapie von Allergien entwickelt werden. Weiterführende Informationen zu Allergien und Forschung finden Sie unter allergieinformationsdienst.de.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/allergien",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 52,
   "question": "Was sind zielgerichtete Krebstherapien?",
-  "answer": "Im folgenden Video erfahren Sie, wann zielgerichtete Krebstherapien eingesetzt werden. Wie werden die Medikamente eingesetzt und wie wirken sie? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/lungenkrebs",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 63,
   "question": "Was ist die Lungenkrankheit COPD?",
-  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei der Lungenkrankheit COPD. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei der Lungenkrankheit COPD.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/chronisch-obstruktive-lungenerkrankung-copd",
   "license": "unklar - pruefen",
@@ -282,7 +342,7 @@
  {
   "id": 84,
   "question": "Wie funktioniert eine Impfung?",
-  "answer": "Im folgenden Video erfahren Sie, wie eine Impfung funktioniert. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, wie eine Impfung funktioniert.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/lungenentzuendung",
   "license": "unklar - pruefen",
@@ -302,7 +362,7 @@
  {
   "id": 132,
   "question": "Was ist eine obstruktive Schlafapnoe?",
-  "answer": "Im folgenden Video erfahren Sie mehr über Symptome, Risikofaktoren und Behandlungsmöglichkeiten einer obstruktiven Schlafapnoe. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie mehr über Symptome, Risikofaktoren und Behandlungsmöglichkeiten einer obstruktiven Schlafapnoe.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/obstruktive-schlafapnoe-osa",
   "license": "unklar - pruefen",
@@ -310,9 +370,49 @@
   "reason": "video_teaser"
  },
  {
+  "id": 145,
+  "question": "Wie können sich gefährdete Personen schützen?",
+  "answer": "Ein ungeschützter Kontakt mit erkrankten Tieren oder Tierprodukten sollte vermieden werden. Für bestimmte Personengruppen, bei denen ein hohes Risiko besteht, mit Milzbrand-Erregern in Kontakt zu kommen steht eine Impfung zur Verfügung. In Deutschland ist seit 2013 ein Impfstoff zur aktiven Immunisierung von Erwachsenen zugelassen. Diesen Impfstoff zu beschaffen ist allerdings recht aufwendig, da er aktuell nicht in der Europäischen Union vermarktet wird.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/milzbrand",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 146,
+  "question": "Wie kann man sich bei Kontakt mit Betroffenen schützen?",
+  "answer": "Das Risiko, sich bei einer infizierten Person anzustecken, ist zwar äußerst gering, jedoch ist eine Ansteckung bei Kontakt mit verunreinigter Kleidung oder Wundflüssigkeit denkbar. Folgende Maßnahmen, die das Risiko einer Infektion senken, gelten vor allem für das Klinikpersonal: Tragen von Schutzhandschuhen, Schutzkittel, Mund-Nasen-Schutz, Augenschutz Desinfektion von Händen und Flächen mit speziellen Mitteln, welche die Sporen bekämpfen, zum Beispiel Produkte aus Peressigsäure Patientinnen und Patienten, wenn möglich, in einem Einzelzimmer unterbringen Kontaktpersonen oder Personen, die sich möglicherweise angesteckt haben, müssen sich nicht absondern. Diese Personen sollten allerdings engmaschig überwacht werden, um mögliche Symptome sofort zu erkennen. Außerdem können sie auch vorsorglich Antibiotika einnehmen (Prophylaxe). Wichtig zu wissen: Milzbrand ist eine meldepflichtige Krankheit. Bei einem Verdacht auf Bioterrorismus – der Erreger wurde in der Vergangenheit auch als biologische Waffe eingesetzt – leitet das zuständige Gesundheitsamt alle weiteren notwendigen Schritte ein.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/milzbrand",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 166,
+  "question": "Was lässt sich mit einer Impfung erreichen?",
+  "answer": "Sowohl eine Impfung als auch eine durchgemachte Keuchhusten-Erkrankung verhindern nicht, dass man sich mit Keuchhusten anstecken kann. Da die Erkrankung bei geimpften Menschen jedoch leichter verläuft, empfiehlt die Ständige Impfkommission (STIKO) am Robert Koch-Institut allen Altersgruppen eine Impfung gegen Keuchhusten. Grundimmunisierung Empfohlen wird die Impfung ausdrücklich schon bei Säuglingen. Bei den ersten Impfungen spricht man von einer Grundimmunisierung. Wenn diese Grundimmunisierung im Kindesalter nicht erfolgt ist, kann sie bis ins Erwachsenenalter hinein nachgeholt werden. Die Grundimmunisierung besteht aus drei Impfdosen, die zu folgenden Zeitpunkten empfohlen werden: Impfung: ab dem vollendeten 2. Lebensmonat (ab der neunten Woche) Impfung: nach dem 4. Lebensmonat Impfung: nach dem 11. Lebensmonat. Auffrischungsimpfung Der Impfschutz soll in der Kindheit und Jugend zweimal zu den folgenden Zeitpunkten mit einem Kombinationsimpfstoff für Keuchhusten, Tetanus und Diphtherie aufgefrischt werden: im Alter von 5 bis 6 Jahren im Alter von 9 bis 17 Jahren Sobald die letzte Impfung gegen Keuchhusten mehr als zehn Jahre zurückliegt, empfehlen Medizinerinnen und Mediziner allen Erwachsenen eine einmalige Auffrischungsimpfung (als Kombinationsimpfung). Dies gilt auch, wenn sie als Kind oder in der Jugend bereits gegen Keuchhusten geimpft wurden. Wichtig zu wissen: Die STIKO empfiehlt seit März 2020 schwangeren Frauen eine Impfung gegen Keuchhusten zu Beginn des dritten Trimesters jeder Schwangerschaft. Bei einer erhöhten Wahrscheinlichkeit für eine Frühgeburt sollte die Impfung ins zweite Trimester vorgezogen werden. Damit sollen die Keuchhusten-Erkrankungen bei Neugeborenen und Säuglingen reduziert werden. Personen in Gesundheitsberufen wie Hebammen und Ärzteschaft sowie Menschen, die in Gemeinschaftseinrichtungen wie Kindergärten oder Altenheimen arbeiten, wird empfohlen, sich alle zehn Jahre gegen Keuchhusten impfen zu lassen. Enge Kontaktpersonen eines Säuglings wie die Großeltern, Babysitter oder Tagesmütter sollten spätestens vier Wochen vor der Geburt eine Auffrischungsimpfung erhalten. Davon ausgenommen sind nur Erwachsene, die in den letzten zehn Jahren bereits gegen Keuchhusten geimpft wurden.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/keuchhusten",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 167,
+  "question": "Worauf sollten Erkrankte und Eltern erkrankter Kinder achten?",
+  "answer": "Um einen Flüssigkeitsmangel durch Erbrechen zu verhindern, sollten Patientinnen und Patienten mit Keuchhusten viel trinken. Flüssige oder breiige Nahrungsmittel können während der Erkrankung die normale, meist schwerere Kost ersetzen. Bei ausgeprägten Hustenanfällen mit anschließendem Erbrechen sind häufigere und kleinere Mahlzeiten empfehlenswert. Während körperliche Anstrengung Hustenanfälle fördern kann und vermieden werden sollte, wirken Spaziergänge an der frischen Luft mitunter wohltuend. Wichtig zu wissen: Keuchhusten ist eine meldepflichtige Erkrankung. Gemeinschaftseinrichtungen wie Kindergarten oder Schule können frühestens fünf Tage nach Beginn einer Antibiotikatherapie wieder besucht werden. Ohne Therapie ist dies frühestens drei Wochen nach Beginn der Krankheit möglich.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/keuchhusten",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 183,
   "question": "Medikamentenallergie – was ist das?",
-  "answer": "Neben der gewünschten Wirkung können Medikamente auch unerwünschte Wirkungen haben: So gibt es Unverträglichkeiten, bei denen der Stoffwechsel ein Medikament nicht richtig verarbeitet. Reagiert das Immunsystem stark abwehrend auf den Wirkstoff oder sonstige Bestandteile des Arzneimittels, spricht man von einer Medikamentenallergie. Menschen mit einer Medikamentenallergie wissen oft nicht, welche Arzneimittel für sie geeignet sind und welche nicht. Wer ein Medikament benötigt, kann Schwierigkeiten haben, ein geeignetes Ersatzmedikament zu finden. Manchmal wirkt das Ersatzmedikament auch weniger gut. Eine Medikamentenallergie löst nicht nur akute Beschwerden aus, sie kann auch die Behandlung einer Erkrankung verzögern. Video Was ist eine Allergie? Im folgenden Video erfahren Sie, wodurch eine Allergie ausgelöst werden kann und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Jetzt ansehen Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Neben der gewünschten Wirkung können Medikamente auch unerwünschte Wirkungen haben: So gibt es Unverträglichkeiten, bei denen der Stoffwechsel ein Medikament nicht richtig verarbeitet. Reagiert das Immunsystem stark abwehrend auf den Wirkstoff oder sonstige Bestandteile des Arzneimittels, spricht man von einer Medikamentenallergie. Menschen mit einer Medikamentenallergie wissen oft nicht, welche Arzneimittel für sie geeignet sind und welche nicht. Wer ein Medikament benötigt, kann Schwierigkeiten haben, ein geeignetes Ersatzmedikament zu finden. Manchmal wirkt das Ersatzmedikament auch weniger gut. Eine Medikamentenallergie löst nicht nur akute Beschwerden aus, sie kann auch die Behandlung einer Erkrankung verzögern.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/medikamentenallergie",
   "license": "unklar - pruefen",
@@ -320,19 +420,29 @@
   "reason": "context_dependent"
  },
  {
+  "id": 187,
+  "question": "Wie hoch ist das Ansteckungsrisiko?",
+  "answer": "Das allgemeine Ansteckungsrisiko ist nur mäßig hoch. Hat beispielsweise ein Schulkind eine Ringelflechte, liegt das Risiko, sich anzustecken, für Kinder aus seiner Klasse bei unter 10 Prozent. Innerhalb der Familie beträgt das Risiko sich anzustecken etwa 10 bis 30 Prozent. Bei neuen Hautpilzarten ist die Ansteckungsgefahr innerhalb der Familie oder auch bei engem körperlichen Kontakt außerhalb der Familie sehr hoch.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/ringelflechte-tinea-corporis",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 189,
   "question": "Was ist eine Sepsis?",
-  "answer": "Im folgenden Video erfahren Sie, wodurch eine Sepsis ausgelöst wird. Welche Symptome treten auf und wie kann sie behandelt werden? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/lungenpest",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 191,
   "question": "Was ist eine Lungenembolie?",
-  "answer": "Im folgenden Video erfahren Sie mehr über die Symptome, Risikofaktoren und Behandlungsmöglichkeiten einer Lungenembolie. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie mehr über die Symptome, Risikofaktoren und Behandlungsmöglichkeiten einer Lungenembolie.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/lungenembolie",
   "license": "unklar - pruefen",
@@ -342,7 +452,7 @@
  {
   "id": 218,
   "question": "Welche häufigen Schilddrüsenerkrankungen gibt es?",
-  "answer": "Dieses Video erklärt die häufigsten Formen der Schilddrüsenüber- und Schilddrüsenunterfunktion, deren Entstehung und Behandlung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Dieses Video erklärt die häufigsten Formen der Schilddrüsenüber- und Schilddrüsenunterfunktion, deren Entstehung und Behandlung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schilddruesenueberfunktion",
   "license": "unklar - pruefen",
@@ -352,7 +462,7 @@
  {
   "id": 227,
   "question": "Was ist Diabetes Typ 2?",
-  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei einer Diabetes-Typ-2-Erkrankung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei einer Diabetes-Typ-2-Erkrankung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/diabetes-typ-2",
   "license": "unklar - pruefen",
@@ -360,9 +470,19 @@
   "reason": "video_teaser"
  },
  {
+  "id": 236,
+  "question": "Was ist ein Disease Management Programm?",
+  "answer": "",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/diabetes-typ-2",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "too_short"
+ },
+ {
   "id": 238,
   "question": "Was ist Diabetes Typ 1?",
-  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei einer Diabetes-Typ-1-Erkrankung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Symptome, Ursachen und Behandlungsmethoden bei einer Diabetes-Typ-1-Erkrankung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/diabetes-typ-1",
   "license": "unklar - pruefen",
@@ -380,6 +500,16 @@
   "reason": "navigation_or_link_teaser"
  },
  {
+  "id": 265,
+  "question": "Was sollten Frauen noch über einen Schwangerschaftsdiabetes wissen?",
+  "answer": "Ein Schwangerschaftsdiabetes verursacht normalerweise keine Beschwerden. Für die Betroffenen kommt die Diagnose daher oft unerwartet. Viele Frauen mit einem Schwangerschaftsdiabetes fragen sich dann, ob sich ihr Kind gesund entwickeln wird, und haben Angst vor Geburtskomplikationen. Einige fürchten auch, der Diabetes könnte auch nach der Geburt anhalten. Solche Befürchtungen können die werdenden Mütter belasten. Sie sollten sich daher klarmachen, dass die meisten Kinder trotz Schwangerschaftsdiabetes gesund zur Welt kommen. Für manche Betroffene können die zur Behandlung gehörenden Umstellungen zunächst gewöhnungsbedürftig sein. Eine ausgewogenere Ernährung und mehr Bewegung können aber schon nach kurzer Zeit wie selbstverständlich zum Alltag gehören. Zudem helfen die Umstellungen auch nach der Geburt des Kinds dabei, gesund zu bleiben. Weitere Informationen rund um das Thema Schwangerschaftsdiabetes finden Sie auf dem nationalen Informationsportal Diabinfo.de",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/schwangerschaftsdiabetes",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 288,
   "question": "Wo finde ich weitere Informationen zur Fruchtbarkeitsstörung?",
   "answer": "Das Portal www.familienplanung.de des Bundesinstituts für Öffentliche Gesundheit (BIÖG) informiert über Kinderwunsch, Fruchtbarkeitsstörungen und Behandlungsmöglichkeiten. Vertiefende Informationen zum Thema Fruchtbarkeitsstörungen und der Funktionsweise weiblicher Geschlechtsorgane lesen Sie unter gesundheitsinformation.de.",
@@ -392,7 +522,7 @@
  {
   "id": 297,
   "question": "Was ist eine Autoimmunerkrankung?",
-  "answer": "Im folgenden Video erhalten Sie grundlegende Informationen zum menschlichen Immunsystem und zu typischen Autoimmunerkrankungen. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erhalten Sie grundlegende Informationen zum menschlichen Immunsystem und zu typischen Autoimmunerkrankungen.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schilddruesenunterfunktion",
   "license": "unklar - pruefen",
@@ -402,7 +532,7 @@
  {
   "id": 302,
   "question": "Wie funktioniert das Herz?",
-  "answer": "In diesem Video erfahren Sie mehr über die Funktionsweise und Aufgaben des Herzens. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie mehr über die Funktionsweise und Aufgaben des Herzens.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/broken-heart-syndrom",
   "license": "unklar - pruefen",
@@ -412,7 +542,7 @@
  {
   "id": 312,
   "question": "Wie entsteht ein Kropf?",
-  "answer": "Erfahren Sie in diesem Video, wie ein Kropf entsteht. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie ein Kropf entsteht.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/kropf-struma",
   "license": "unklar - pruefen",
@@ -422,7 +552,7 @@
  {
   "id": 321,
   "question": "Wie entsteht eine Gürtelrose?",
-  "answer": "Erfahren Sie in diesem Video, wie eine Gürtelrose entsteht und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie eine Gürtelrose entsteht und welche Symptome auftreten können.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/guertelrose",
   "license": "unklar - pruefen",
@@ -430,9 +560,19 @@
   "reason": "video_teaser"
  },
  {
+  "id": 324,
+  "question": "Wer sollte sich impfen lassen?",
+  "answer": "Die Ständige Impfkommission (STIKO) am Robert Koch-Institut empfiehlt die Impfung gegen Gürtelrose standardmäßig für alle Personen ab 60 Jahre. Darüber hinaus empfiehlt sie die Impfung für Menschen ab 50 Jahre, wenn sie infolge einer bestehenden Grunderkrankung besonders gefährdet sind. Das betrifft auch Personen, die immunschwächende Medikamente (Immunsuppressiva) bekommen. Folgende Grunderkrankungen zählen dazu: HIV/AIDS rheumatoide Arthritis systemischer Lupus erythematodes chronisch -entzündliche Darmerkrankungen wie Colitis ulcerosa oder Morbus Crohn chronische Lungenerkrankungen wie COPD oder Asthma bronchiale chronische Nierenerkrankung Diabetes mellitus Für die genannten Personenkreise übernimmt die gesetzliche Krankenversicherung die Kosten für die Impfung. Für einen ausreichenden Schutz wird die Impfung zweimal verabreicht. Die zweite Impfung sollte im Abstand von mindestens zwei bis maximal sechs Monaten zur ersten Impfung erfolgen. Wichtig zu wissen: Die Gürtelrose-Impfung ist eine andere Impfung als die zur Vorbeugung der Windpocken. Es ist nicht notwendig, vor der Gürtelrose-Impfung im Blut zu untersuchen, ob die Person bereits einmal Windpocken hatte und somit Virusträger ist. Da es die Windpocken-Impfung erst seit 2004 gibt, kann man davon ausgehen, dass die meisten der heute über 50-Jährigen die Krankheit als Kind hatten. Antworten auf häufig gestellte Fragen zur Impfung gegen Gürtelrose finden Sie auf der Webseite des Robert Koch-Instituts. Weitere Informationen zur Gürtelrose-Impfung finden Sie auch auf dieser Website des Bundesinstituts für Öffentliche Gesundheit: impfen-info.de",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/guertelrose",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 379,
   "question": "Was ist Neurodermitis und wie kann man sie behandeln?",
-  "answer": "Das folgende Video zeigt, wie sich Neurodermitis äußert und welche Maßnahmen dagegen helfen. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video zeigt, wie sich Neurodermitis äußert und welche Maßnahmen dagegen helfen.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/neurodermitis",
   "license": "unklar - pruefen",
@@ -442,12 +582,62 @@
  {
   "id": 395,
   "question": "Wie wird Krebs behandelt?",
-  "answer": "Im folgenden Video erfahren Sie, wie Krebserkrankungen behandelt werden können. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, wie Krebserkrankungen behandelt werden können.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schwarzer-hautkrebs",
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "video_teaser"
+ },
+ {
+  "id": 415,
+  "question": "Wann sollte man sich ärztlich untersuchen lassen?",
+  "answer": "Ärztliche Hilfe sollte man in Anspruch nehmen, wenn: die Haut trotz geeigneter Pflegemaßnahmen weiter austrocknet sich viele Schuppen bilden und starker Juckreiz oder sogar Schmerzen bestehen entzündete, nässende Hautstellen, nicht abheilende Krusten oder ein neuer Hautausschlag auftreten zusätzliche Krankheitszeichen wie Haarausfall, Kopfschmerzen, Schwindel, Gewichtsverlust, großer Durst, häufiges Wasserlassen oder Fieber vorhanden sind die trockene Haut kurz nach der Einnahme eines neuen Medikaments aufgetreten ist",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/trockene-haut",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 416,
+  "question": "Was machen Ärztinnen oder Ärzte?",
+  "answer": "Ärztinnen oder Ärzte werden zunächst erfragen, wann und in welchem Zusammenhang die trockene Haut aufgetreten ist und welche Faktoren den Hautzustand bessern oder verschlechtern. Anschließend schauen sie sich die betroffenen Hautstellen genau an. Meist können sie dann die Diagnose stellen. Gehen sie von einer anderen zugrunde liegenden Krankheit aus, werden entsprechende Untersuchungen durchgeführt, beispielsweise eine Blutentnahme.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/trockene-haut",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 417,
+  "question": "Wie sieht die medizinische Therapie aus?",
+  "answer": "Trockene Haut stört die Barrierefunktion der Haut. Dadurch können Allergene, Schadstoffe und Krankheitserreger wie Bakterien, Viren oder Pilze leichter in die Haut eindringen und zu schwerwiegenderen Folgeerkrankungen führen. Deshalb ist es wichtig, trockene Haut, deren Zustand sich durch allgemeine Maßnahmen nicht bessert, medizinisch zu behandeln. Je nach Hautbefund wählen Ärztinnen und Ärzte die passende Basistherapie aus, die aus verschiedenen Anteilen an rückfeuchtenden und rückfettenden Inhaltsstoffen besteht: Rückfeuchtende Inhaltsstoffe sind beispielsweise Glyzerin oder Urea. Sie steigern die Menge an Feuchthaltefaktoren in der Haut, welche die Feuchtigkeit in der obersten Hautschicht binden. Rückfettende Substanzen wie Ceramide, Cholesterin, freie Fettsäuren und Bestandteile natürlicher Öle können die Fettschicht zwischen den Hornzellen wieder auffüllen. Filmbildende Substanzen wie Öle, Fette oder Wachse auf Mineral- oder Silikonölbasis werden nicht in die Haut aufgenommen. Sie bilden einen Schutzfilm auf der Haut und unterstützen dadurch die Barrierefunktion. Filmbildende Substanzen auf Mineralölbasis erhöhen außerdem den Wassergehalt der Haut. Zusätzlich können Inhaltsstoffe zur Basistherapie hinzugefügt werden, welche die gereizte Haut beruhigen und den Juckreiz stillen: Hautberuhigende Substanzen sind beispielweise Licochalcone A, Dexpanthenol, Haferextrakt und Bisabolol. Juckreizstillende Inhaltsstoffe sind beispielsweise Polidocanol, Stoffe wie Menthol, die den Kälterezeptor in der Haut aktivieren, oder N-Palmitoylethanolamid. Grundsätzlich gilt: Je trockener die Haut, desto fettreicher sollte die Basistherapie sein. Je entzündeter die Haut, desto höher sollte der Wassergehalt sein. Die Basistherapie für Hände und Füße sollte mehr rückfettende, die Basistherapie für das Gesicht mehr rückfeuchtende Anteile haben. Betroffene sollten auch persönliche Vorlieben bei der Auswahl berücksichtigen, damit sie die Produkte wirklich verwenden. Solche Vorlieben betreffen beispielsweise den Duft der Hautpflege oder die Frage, wie gut sich die Pflege auf der Haut verteilen lässt und welches Gefühl sie nach dem Einziehen hinterlässt.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/trockene-haut",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 423,
+  "question": "Wie ist die Situation weltweit?",
+  "answer": "In einigen afrikanischen Ländern sind seit 2023 die Zahlen der Mpox-Fälle angestiegen. Dies hängt auch mit einer neuen Virusvariante zusammen, die sich vor allem in der Demokratischen Republik Kongo und benachbarten Ländern schnell ausgebreitet hat. Diese Virusvariante heißt Klade Ib und führt zu schwereren Erkrankungen. Die Weltgesundheitsorganisation (WHO) hat daher im August 2024 eine sogenannte gesundheitliche Notlage von internationaler Tragweite ausgerufen. Das ermöglicht betroffenen Ländern notwendige Maßnahmen zu ergreifen, um die weitere Ausbreitung zu verhindern. In Deutschland besteht durch die neue Mpox-Variante aktuell keine erhöhte Gefährdung.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/mpox",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 425,
+  "question": "Wie verhält man sich nach Kontakt mit einer erkrankten Person?",
+  "answer": "Wer engen Kontakt, zum Beispiel sexuellen Kontakt, mit einer an Mpox erkrankten Person hatte, sollte sich an das örtliche Gesundheitsamt wenden. Für enge Kontaktpersonen gibt es die Möglichkeit einer Impfung gegen Mpox. Nach engem Kontakt zu einer erkrankten Person sollte man selbst vorerst auf Sex verzichten. Außerdem sollte man den Kontakt zu Schwangeren, kleinen Kindern, sehr alten Menschen und Personen mit einer eingeschränkten Immunabwehr vermeiden. Diese Personengruppen haben im Falle einer Ansteckung ein erhöhtes Risiko für einen schweren Verlauf. Es sollte genau auf Anzeichen für eine Ansteckung – auch unspezifische Symptome – geachtet werden. Wenn Beschwerden auftreten, sollte eine Arztpraxis kontaktiert werden. Die Arztpraxis sollte vorher telefonisch oder gleich bei Eintreffen über den Verdacht einer Mpox-Erkrankung informiert werden. Auf der Webseite des RKI finden Sie Ihr zuständiges Gesundheitsamt.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/mpox",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
  },
  {
   "id": 455,
@@ -458,6 +648,76 @@
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "navigation_or_link_teaser"
+ },
+ {
+  "id": 477,
+  "question": "Was sollte man noch über Windpocken wissen?",
+  "answer": "Da der Juckreiz stark sein kann, fällt es Betroffenen oft schwer, sich nicht zu kratzen. Es ist dennoch wichtig, das Kratzen möglichst zu unterlassen. Nicht nur, weil die Bläschenflüssigkeit ansteckend ist, sondern auch, weil aufgekratzte Bläschen Narben hinterlassen können. Bei Kindern kann es hilfreich sein, die Fingernägel kurz zu schneiden. Bei Säuglingen und Kleinkindern mit Windpocken können Baumwoll-Fäustlinge das Kratzen erschweren. Zudem kann weite Kleidung aus glattem Stoff dazu beitragen, dass die Haut nicht zusätzlich gereizt wird. Bei Windpocken ist es meistens besser zu duschen, als ausgiebig zu baden, weil die Haut dadurch weniger aufweicht. Nach dem Duschen und Waschen sollte die Haut möglichst nur vorsichtig trocken getupft werden.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/windpocken",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 483,
+  "question": "Was ist noch wichtig zu wissen?",
+  "answer": "Einige Magen-Darm-Infektionen sind meldepflichtige Krankheiten. Das bedeutet, dass die Ärztin oder der Arzt das örtliche Gesundheitsamt benachrichtigen muss. Meldepflicht besteht zum Beispiel bei einer nachgewiesenen Infektion mit Noroviren oder Rotaviren, Salmonellen oder Campylobacter. Generell meldepflichtig ist eine Magen-Darm-Infektion bei Kindern unter 6 Jahren, die in eine Gemeinschaftseinrichtung wie Kita oder Kindergarten gehen. Wenn beim Arztbesuch eine Infektion festgestellt wird, muss die Ärztin oder der Arzt sie innerhalb von 24 Stunden dem zuständigen Gesundheitsamt melden. Erst wenn das erkrankte Kind 2 Tage keinen Durchfall mehr hatte, darf es wieder in die Kita. So lässt sich vermeiden, dass andere Kinder auch krank werden. In Deutschland gibt es ein Infektionsschutzgesetz. Es soll dafür sorgen, dass übertragbaren Krankheiten vorgebeugt und eine Weiterverbreitung verhindert werden kann. Nach dem Gesetz dürfen Personen, die in Lebensmittelberufen arbeiten und bei denen der Verdacht auf eine Darminfektion besteht, die erkrankt sind oder Salmonellen haben, erst wieder arbeiten, wenn sich in drei untersuchten Stuhlproben keine Erreger mehr nachweisen lassen. Auch in den 4 bis 6 Wochen danach sollten sie sicherheitshalber besonders streng auf ihre Händehygiene am Arbeitsplatz achten.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/durchfall",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 490,
+  "question": "Wie geht es nach der Behandlung weiter?",
+  "answer": "An die Behandlung von weißem Hautkrebs schließt sich eine Nachsorge an. Sie dient dazu, einen wiederkehrenden oder an einer anderen Stelle neu aufgetretenen Tumor frühzeitig zu erkennen. Nach dem Ende der Behandlung untersucht eine Ärztin oder ein Arzt die Patienten in regelmäßigen Abständen. Wie groß diese Abstände sind, richtet sich nach dem Rückfallrisiko. Patienten mit einem erhöhten Risiko für das Auftreten weiterer Tumoren werden engmaschiger und über einen längeren Zeitraum nachuntersucht als Patienten mit einem geringen Risiko. Was wird gemacht? Die Ärztin oder der Arzt begutachtet bei den Nachsorgeterminen die gesamte Haut. Bei Patienten mit Plattenepithelkarzinom werden gegebenenfalls die Lymphknoten per Ultraschall untersucht. Weitere Untersuchungsmethoden, wie zum Beispiel eine Computertomographie oder eine Magnetresonanztomographie, setzen Ärzte nur ein, wenn entsprechende Krankheitszeichen bestehen und sie ein Fortschreiten der Erkrankung ausschließen möchten. Betroffene sollten sich außerdem regelmäßig selbst untersuchen, um einen Rückfall oder weitere Tumore möglichst frühzeitig zu entdecken und behandeln zu können. Sie möchten mehr über Untersuchungsmethoden wie Ultraschall oder Computertomographie wissen? Auf der Website des Krebsinformationsdienstes, Deutsches Krebsforschungszentrum finden Sie detaillierte Beschreibungen dieser und anderer Methoden.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/weisser-hautkrebs",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 504,
+  "question": "Wie steckt man sich mit den Viren an?",
+  "answer": "Die Ansteckung erfolgt durch den direkten Kontakt mit Körperflüssigkeiten. Dazu gehören: Nasen- und Rachensekrete Speichel Flüssigkeit aus den Bläschen des Ausschlags Stuhl",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/hand-fuss-mund-krankheit-hfmk",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 505,
+  "question": "Wie werden die Viren übertragen?",
+  "answer": "Verbreitet wird die Erkrankung vor allem, wenn virenhaltige Körperflüssigkeiten an die Hände und von dort weiter zum Mund gelangen. Zu solch einer Schmierinfektion kann es auch kommen, wenn man mit Viren verunreinigte Gegenstände wie Türgriffe oder Schnuller berührt. Eine Ansteckung über den Speichel passiert zum Beispiel beim Küssen, eine Ansteckung über Stuhl beim Windelwechseln. Zu Beginn der Erkrankung ist es außerdem möglich, sich über kleine Tröpfchen anzustecken, die beim Sprechen, Husten oder Niesen entstehen und die Viren enthalten ( Tröpfcheninfektion ).",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/hand-fuss-mund-krankheit-hfmk",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 509,
+  "question": "Was gilt für den Besuch von Gemeinschaftseinrichtungen?",
+  "answer": "Da die Erkrankung meist mild verläuft, dürfen Kinder Gemeinschaftseinrichtungen wie Kitas und Schulen weiterhin besuchen, solange sie kein Fieber haben und sich gesund fühlen. Hat ein Kind Fieber oder verläuft die Erkrankung schwer, stellt die Kinderärztin oder der Kinderarzt in der Regel für einige Tage eine Krankschreibung aus. In bestimmten Situationen kann das Gesundheitsamt entscheiden, dass ein Kind vorübergehend nicht in die Einrichtung darf – zum Beispiel, um einen Ausbruch zu einzudämmen. Wenn dann keine Beschwerden mehr bestehen und die Bläschen des Ausschlags abgeheilt sind, können Kinder ohne schriftliches ärztliches Attest wieder in den Kindergarten oder die Schule gehen.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/hand-fuss-mund-krankheit-hfmk",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
+  "id": 512,
+  "question": "Ab wann und wie lange ist man für andere ansteckend?",
+  "answer": "Wer an Röteln erkrankt, ist eine Woche vor Auftreten des Hautausschlags bis etwa eine Woche danach ansteckend. Babys, die sich vor der Geburt mit Röteln infiziert haben, können das Virus ein Jahr lang über die Atemwege und den Urin ausscheiden und sind in dieser Zeit für andere ansteckend.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/roeteln",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
  },
  {
   "id": 600,
@@ -482,7 +742,7 @@
  {
   "id": 617,
   "question": "Was passiert bei einem Schlaganfall?",
-  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Schlaganfall. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Schlaganfall.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schlaganfall",
   "license": "unklar - pruefen",
@@ -492,17 +752,17 @@
  {
   "id": 621,
   "question": "Warum ist Bluthochdruck gefährlich?",
-  "answer": "Im folgenden Video erfahren Sie, was im Körper bei Bluthochdruck passiert. Welche Folgeschäden können durch Bluthochdruck entstehen und wie kann ein hoher Blutdruck gesenkt werden? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schlaganfall",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 632,
   "question": "Was passiert bei einem Herzinfarkt?",
-  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Herzinfarkt. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Herzinfarkt.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/koronare-herzkrankheit",
   "license": "unklar - pruefen",
@@ -540,9 +800,19 @@
   "reason": "navigation_or_link_teaser"
  },
  {
+  "id": 743,
+  "question": "Was sollte man noch über Vorhofflimmern wissen?",
+  "answer": "Schlägt das Herz normal, nimmt man es in der Regel gar nicht wahr. Bei Vorhofflimmern kann sich das ändern: Die Betroffenen können spüren, dass das Herz nicht mehr so schlägt, wie es soll. Das ist oft so beunruhigend, dass sie zu einem Arzt oder einer Ärztin gehen. Wird dann Vorhofflimmern festgestellt, machen sich viele zunächst große Sorgen. Meistens lassen sich die Erkrankung und die Beschwerden aber gut behandeln. Auch Schulungen können für Menschen mit Vorhofflimmern hilfreich sein: Sie zeigen, wie man im Alltag mit der Erkrankung umgehen kann und Medikamente richtig anwendet. Bei vielen Menschen bleiben dennoch Unsicherheiten bestehen. Manche fragen sich, ob sie sich nun schonen müssen oder ob sie wie gewohnt aktiv bleiben und zum Beispiel Sport treiben können. Medizinisch spricht nichts dagegen: Studien deuten darauf hin, dass maßvolle körperliche Aktivität bei Vorhofflimmern nicht schadet und die körperliche Fitness verbessern kann.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/vorhofflimmern",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 823,
   "question": "Wie entsteht eine Magenschleimhautentzündung?",
-  "answer": "Das folgende Video berichtet über die Symptome und Ursachen einer Magenschleimhautentzündung (Gastritis). Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über die Symptome und Ursachen einer Magenschleimhautentzündung (Gastritis).",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/gastritis",
   "license": "unklar - pruefen",
@@ -552,7 +822,7 @@
  {
   "id": 840,
   "question": "Was sind sexuell übertragbare Infektionen (STI)?",
-  "answer": "In diesem Video erfahren Sie, was sexuell übertragbare Infektionen (STI) sind. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie, was sexuell übertragbare Infektionen (STI) sind.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/hiv-aids",
   "license": "unklar - pruefen",
@@ -560,9 +830,19 @@
   "reason": "video_teaser"
  },
  {
+  "id": 853,
+  "question": "Was sollte man noch wissen?",
+  "answer": "Syphilis zählt zu den meldepflichtigen Infektionskrankheiten. Die Meldung erfolgt anonymisiert durch das Labor, welches die Erkrankung festgestellt hat. Wo kann ich mich zu sexuell übertragbaren Krankheiten (STI) beraten lassen? Auf der Webseite Liebesleben des Bundesinstituts für Öffentliche Gesundheit (BIÖG) finden Sie Informationen zu Beratungsangeboten, auch telefonisch oder online. Auf der Webseite können Sie sich außerdem über Liebe, Sex und Schutz informieren. Auf der Webseite der Caritas können Sie sich über Beratungsangebote in Ihrer Nähe oder eine anonyme Online-Beratung informieren. Auch WIR – Walk in Ruhr, Zentrum für Sexuelle Gesundheit und Medizin vermittelt Wissenswertes zu Syphilis und anderen sexuell übertragbaren Infektionen. Auf der Webseite der Deutschen STI-Gesellschaft (DSTIG) finden Sie ebenfalls Informationen zu sexuell übertragbaren Infektionen.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/syphilis",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
+ },
+ {
   "id": 869,
   "question": "Was kennzeichnet eine FSME?",
-  "answer": "Im folgenden Video erfahren Sie mehr über die Risikogebiete, Ansteckungsmöglichkeiten und die Symptome einer FSME-Infektion. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie mehr über die Risikogebiete, Ansteckungsmöglichkeiten und die Symptome einer FSME-Infektion.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/fruehsommer-meningoenzephalitis-fsme",
   "license": "unklar - pruefen",
@@ -602,7 +882,7 @@
  {
   "id": 913,
   "question": "Was ist eine Bindehautentzündung?",
-  "answer": "In diesem Video erfahren Sie, wodurch eine Bindehautentzündung ausgelöst wird, wie sie sich äußert und wie sie behandelt werden kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie, wodurch eine Bindehautentzündung ausgelöst wird, wie sie sich äußert und wie sie behandelt werden kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/bindehautentzuendung",
   "license": "unklar - pruefen",
@@ -612,7 +892,7 @@
  {
   "id": 956,
   "question": "Wie funktioniert eine Dialyse?",
-  "answer": "Erfahren Sie in diesem Video, wie eine Dialyse funktioniert und abläuft. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie eine Dialyse funktioniert und abläuft.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/ehec-erkrankung",
   "license": "unklar - pruefen",
@@ -632,7 +912,7 @@
  {
   "id": 1013,
   "question": "Was ist das Mikrobiom?",
-  "answer": "Erfahren Sie in diesem Video mehr über das Mikrobiom und seine Funktionen im menschlichen Körper. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video mehr über das Mikrobiom und seine Funktionen im menschlichen Körper.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/darmentzuendung-durch-clostridioides-difficile",
   "license": "unklar - pruefen",
@@ -642,7 +922,7 @@
  {
   "id": 1102,
   "question": "Warum sind Elektrolyte wichtig?",
-  "answer": "Erfahren Sie in diesem Video, warum Elektrolyte für den Körper wichtig sind. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, warum Elektrolyte für den Körper wichtig sind.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/durchfall",
   "license": "unklar - pruefen",
@@ -662,17 +942,17 @@
  {
   "id": 1171,
   "question": "Was passiert bei einer Blinddarmentzündung?",
-  "answer": "Im folgenden Video erfahren Sie, was bei einer Blinddarmentzündung passiert. Welche Symptome treten auf und wie wird sie behandelt? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/blinddarmentzuendung",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 1180,
   "question": "Was ist eine Prostatavergrößerung?",
-  "answer": "In diesem Video erfahren Sie mehr über Symptome und Behandlungsmöglichkeiten einer gutartigen Prostatavergrößerung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie mehr über Symptome und Behandlungsmöglichkeiten einer gutartigen Prostatavergrößerung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/prostataentzuendung-und-schmerzsyndrom-des-beckens",
   "license": "unklar - pruefen",
@@ -682,12 +962,12 @@
  {
   "id": 1193,
   "question": "Was ist eine Depression?",
-  "answer": "Im folgenden Video erfahren Sie, wie sich eine Depression äußert. Wodurch wird sie ausgelöst und welche Behandlungsmöglichkeiten gibt es? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/depression",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 1199,
@@ -702,7 +982,7 @@
  {
   "id": 1213,
   "question": "Welche gängigen Kopfschmerzarten gibt es?",
-  "answer": "Im folgenden Video erfahren Sie, welche gängigen Kopfschmerzarten es gibt und wie sie sich äußern. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, welche gängigen Kopfschmerzarten es gibt und wie sie sich äußern.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/migraene",
   "license": "unklar - pruefen",
@@ -732,7 +1012,7 @@
  {
   "id": 1221,
   "question": "Was ist eine generalisierte Angststörung?",
-  "answer": "In diesem Video erfahren Sie mehr über Symptome und Behandlungsmöglichkeiten einer generalisierten Angstörung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie mehr über Symptome und Behandlungsmöglichkeiten einer generalisierten Angstörung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/generalisierte-angststoerung",
   "license": "unklar - pruefen",
@@ -742,7 +1022,7 @@
  {
   "id": 1231,
   "question": "Was ist ein Schädel-Hirn-Trauma?",
-  "answer": "In diesem Video erfahren Sie, was genau ein Schädel-Hirn- Trauma ist und wie es entsteht. Außerdem werden die verschiedenen Schweregrade und mögliche Langzeitfolgen eines Schädel-Hirn-Traumas erläutert. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie, was genau ein Schädel-Hirn- Trauma ist und wie es entsteht. Außerdem werden die verschiedenen Schweregrade und mögliche Langzeitfolgen eines Schädel-Hirn-Traumas erläutert.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/gehirnerschuetterung-erwachsene",
   "license": "unklar - pruefen",
@@ -752,7 +1032,7 @@
  {
   "id": 1235,
   "question": "Was ist eine Demenz?",
-  "answer": "In diesem Video erfahren Sie, wie eine Demenz entsteht und wie sie behandelt werden kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video erfahren Sie, wie eine Demenz entsteht und wie sie behandelt werden kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/alzheimer-demenz",
   "license": "unklar - pruefen",
@@ -762,12 +1042,22 @@
  {
   "id": 1244,
   "question": "Was ist eine Vorsorgevollmacht?",
-  "answer": "Das folgende Video erklärt, was eine Vorsorgevollmacht ist und wie sie verwendet wird. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video erklärt, was eine Vorsorgevollmacht ist und wie sie verwendet wird.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/alzheimer-demenz",
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "video_teaser"
+ },
+ {
+  "id": 1245,
+  "question": "Was ist eine Patientenverfügung?",
+  "answer": "Erfahren Sie im folgenden Video, was eine Patientenverfügung ist und wie diese verwendet wird.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/alzheimer-demenz",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "too_short"
  },
  {
   "id": 1256,
@@ -792,7 +1082,7 @@
  {
   "id": 1282,
   "question": "Was ist die Parkinson-Erkrankung?",
-  "answer": "Das folgende Video zeigt, welche Symptome bei der Parkinson-Krankheit auftreten und welche Behandlungsmöglichkeiten es gibt. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video zeigt, welche Symptome bei der Parkinson-Krankheit auftreten und welche Behandlungsmöglichkeiten es gibt.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/parkinson-erkrankung",
   "license": "unklar - pruefen",
@@ -822,7 +1112,7 @@
  {
   "id": 1335,
   "question": "Wie entsteht eine Arthrose?",
-  "answer": "Das folgende Video berichtet über die Entstehung und die Ursachen einer Arthrose. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über die Entstehung und die Ursachen einer Arthrose.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/arthrose",
   "license": "unklar - pruefen",
@@ -832,7 +1122,7 @@
  {
   "id": 1361,
   "question": "Wie heilt ein Knochenbruch?",
-  "answer": "Das folgende Video erklärt, wie die Knochenbruchheilung funktioniert. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video erklärt, wie die Knochenbruchheilung funktioniert.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/hueftgelenksnahe-fraktur",
   "license": "unklar - pruefen",
@@ -862,7 +1152,7 @@
  {
   "id": 1442,
   "question": "Was ist ein Bandscheibenvorfall?",
-  "answer": "Im folgenden Video erfahren Sie mehr über Ursachen, Symptome und Behandlungsmöglichkeiten eines Bandscheibenvorfalls. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie mehr über Ursachen, Symptome und Behandlungsmöglichkeiten eines Bandscheibenvorfalls.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/bandscheibenvorfall",
   "license": "unklar - pruefen",
@@ -872,7 +1162,7 @@
  {
   "id": 1448,
   "question": "Welche Ursachen können Rückenschmerzen haben?",
-  "answer": "Das folgende Video zeigt mögliche Ursachen, Auslöser und Symptome von unspezifischen und spezifischen Kreuzschmerzen auf. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video zeigt mögliche Ursachen, Auslöser und Symptome von unspezifischen und spezifischen Kreuzschmerzen auf.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/bandscheibenvorfall",
   "license": "unklar - pruefen",
@@ -882,17 +1172,17 @@
  {
   "id": 1500,
   "question": "Was ist eine Sehnenscheidenentzündung?",
-  "answer": "Dieses Video zeigt, wie eine Sehnenscheidenentzündung entsteht. Welche Symptome treten auf und welche Behandlungsmöglichkeiten gibt es? Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Dieses",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/sehnenscheidenentzuendung",
   "license": "unklar - pruefen",
   "lang": "de",
-  "reason": "video_teaser"
+  "reason": "too_short"
  },
  {
   "id": 1601,
   "question": "Wie wird ein Harnblasentumor entfernt?",
-  "answer": "In diesem Video wird die Entfernung eines Harnblasentumors erklärt. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "In diesem Video wird die Entfernung eines Harnblasentumors erklärt.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/harnblasenkrebs",
   "license": "unklar - pruefen",
@@ -922,12 +1212,22 @@
  {
   "id": 1636,
   "question": "Was ist ein Burn-out-Syndrom?",
-  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Burn-out-Syndrom. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video berichtet über mögliche Ursachen, Risikofaktoren und Symptome bei einem Burn-out-Syndrom.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/burn-out-syndrom",
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "video_teaser"
+ },
+ {
+  "id": 1643,
+  "question": "Was sollte man noch über den vorzeitigen Samenerguss wissen?",
+  "answer": "Das Sexualleben spielt für das Selbstbewusstsein vieler Menschen eine wichtige Rolle. Klischees, was „guter Sex“ ist oder Prahlereien und unangebrachte Sprüche können unter Druck setzen. Männer, die mit vorzeitigen Samenergüssen zu tun haben, sollten sich davon nicht beeindrucken lassen: Sie sind nicht weniger „männlich“ als andere. Wird der vorzeitige Samenerguss zur Belastung und beeinträchtigt das Sexualleben, nimmt seine Bedeutung zu. Für viele ist es sehr frustrierend, die Zeit bis zum Höhepunkt nicht steuern zu können. Manche Männer befürchten, im Bett zu versagen und ihre Partnerin oder ihren Partner nicht befriedigen zu können. Geschlechtsverkehr und der Zeitpunkt des Samenergusses müssen aber nicht im Mittelpunkt des Liebeslebens stehen. Es gibt viele andere Möglichkeiten, die eigene Sexualität auszuleben, zum Höhepunkt zu kommen und Intimität zu spüren. Vielen Menschen ist die allgemeine Zufriedenheit mit dem Liebesleben und der Partnerschaft wichtiger als die Dauer des Geschlechtsverkehrs. Manche Männer neigen dazu, das Thema zu verdrängen, und sprechen nicht offen darüber. Dadurch kann das Problem aber noch verstärkt werden.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/vorzeitiger-samenerguss",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
  },
  {
   "id": 1648,
@@ -952,7 +1252,7 @@
  {
   "id": 1829,
   "question": "Wie entsteht eine Fettleber?",
-  "answer": "Erfahren Sie in diesem Video, wie eine Fettleber entsteht und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie eine Fettleber entsteht und welche Symptome auftreten können.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/nicht-alkoholische-fettleber",
   "license": "unklar - pruefen",
@@ -968,6 +1268,16 @@
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "navigation_or_link_teaser"
+ },
+ {
+  "id": 1871,
+  "question": "Was sollte man noch über Zahn- und Kieferfehlstellungen wissen?",
+  "answer": "Zahnspangen können zwar helfen, Fehlstellungen zu korrigieren und damit verbundene Beschwerden zu lindern oder zu beseitigen. Die Behandlung kann aber auch belasten: So kann das Tragen einer Spange anfangs schmerzen, weil sie an den Zähnen zieht. Wer eine festsitzende Zahnspange trägt, muss zudem beim Essen aufpassen. Wichtig zu wissen: Zwar mögen manche Kinder und Jugendliche Zahnspangen heutzutage für „cool“ halten. Anderen sind sie aber peinlich, vor allem beim Essen. Manche Betroffene sorgen sich auch, sie könnten die Spange dabei beschädigen. Die Behandlung mit einer Zahnspange erfordert, dass die betroffenen Kinder und Jugendlichen mitmachen: Sie müssen ihre Zähne und die Zahnspange pflegen. Herausnehmbare Zahnspangen müssen konsequent getragen werden. Motivierend kann es sein, wenn bei einem Kontrolltermin gezeigt werden kann, wie sehr sich das Gebiss schon verbessert hat. Erreichen Fehlstellungen bei Kindern und Jugendlichen unter 18 Jahren ein bestimmtes Ausmaß, werden die Behandlungskosten in Deutschland von den Krankenkassen übernommen. Zunächst muss dabei ein Eigenanteil bezahlt werden. Dieser wird vollständig erstattet, wenn die Therapie wie geplant zu Ende geführt wurde.",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/zahn-und-kieferfehlstellungen",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "context_dependent"
  },
  {
   "id": 1900,
@@ -1012,7 +1322,7 @@
  {
   "id": 2133,
   "question": "Was ist ein Tinnitus?",
-  "answer": "Im folgenden Video erfahren Sie, wodurch ein Tinnitus ausgelöst werden kann und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, wodurch ein Tinnitus ausgelöst werden kann und welche Symptome auftreten können.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/tinnitus",
   "license": "unklar - pruefen",
@@ -1022,7 +1332,7 @@
  {
   "id": 2193,
   "question": "Wie viel Bewegung ist gesund?",
-  "answer": "Im folgenden Video erfahren Sie, welche Art und welches Ausmaß körperlicher Aktivität als gesundheitsfördernd gilt. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, welche Art und welches Ausmaß körperlicher Aktivität als gesundheitsfördernd gilt.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/gesund-durch-bewegung",
   "license": "unklar - pruefen",
@@ -1062,7 +1372,7 @@
  {
   "id": 2248,
   "question": "Welche Auswirkungen hat UV-Strahlung auf unseren Körper?",
-  "answer": "Erfahren Sie in diesem Video, welche Auswirkungen UV-Strahlung auf den Körper hat und wie man sich vor ihr schützen kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, welche Auswirkungen UV-Strahlung auf den Körper hat und wie man sich vor ihr schützen kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/uv-schutz-hautkrebspraevention",
   "license": "unklar - pruefen",
@@ -1142,7 +1452,7 @@
  {
   "id": 2414,
   "question": "Warum sind ältere Menschen durch Hitze besonders gefährdet?",
-  "answer": "Erfahren Sie in diesem Video, wieso Hitze gerade für ältere Menschen ein gesundheitliches Risiko darstellen kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wieso Hitze gerade für ältere Menschen ein gesundheitliches Risiko darstellen kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/hitze-pflegebeduerftigkeit",
   "license": "unklar - pruefen",
@@ -1152,7 +1462,7 @@
  {
   "id": 2435,
   "question": "Wie viel Alkohol ist ungesund?",
-  "answer": "Im folgenden Video erfahren Sie, ab wann Alkohol schädlich ist und welche Menge risikoarm konsumiert werden kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, ab wann Alkohol schädlich ist und welche Menge risikoarm konsumiert werden kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/alkoholvergiftung",
   "license": "unklar - pruefen",
@@ -1252,7 +1562,7 @@
  {
   "id": 2537,
   "question": "Wie funktioniert die Immunantwort?",
-  "answer": "Erfahren Sie in diesem Video, wie das Immunsystem reagiert, wenn Krankheitserreger in den Körper eindringen. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, wie das Immunsystem reagiert, wenn Krankheitserreger in den Körper eindringen.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/stress",
   "license": "unklar - pruefen",
@@ -1272,7 +1582,7 @@
  {
   "id": 2671,
   "question": "Welche Auswirkungen hat der Klimawandel auf die Gesundheit?",
-  "answer": "Dieses Video zeigt, wie bestimmte Erkrankungen sich als Folge des Klimawandels ausbreiten. Steigende Temperaturen haben Folgen für die Gesundheit. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Dieses Video zeigt, wie bestimmte Erkrankungen sich als Folge des Klimawandels ausbreiten. Steigende Temperaturen haben Folgen für die Gesundheit.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/ozon-gesundheit",
   "license": "unklar - pruefen",
@@ -1282,12 +1592,22 @@
  {
   "id": 2689,
   "question": "Warum ist Feinstaub ein Gesundheitsrisiko?",
-  "answer": "Im folgenden Video erfahren Sie, warum von Feinstaub ein Gesundheitsrisiko ausgeht. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Im folgenden Video erfahren Sie, warum von Feinstaub ein Gesundheitsrisiko ausgeht.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/luftverschmutzung-und-herz-kreislauf-erkrankungen",
   "license": "unklar - pruefen",
   "lang": "de",
   "reason": "video_teaser"
+ },
+ {
+  "id": 2713,
+  "question": "Wie entsteht eine Antibiotikaresistenz?",
+  "answer": "",
+  "source": "gesund.bund.de (BMG)",
+  "url": "https://gesund.bund.de/antibiotikaresistenzen",
+  "license": "unklar - pruefen",
+  "lang": "de",
+  "reason": "too_short"
  },
  {
   "id": 2714,
@@ -1302,7 +1622,7 @@
  {
   "id": 2725,
   "question": "Wer hat Anspruch auf Pflegeleistungen?",
-  "answer": "Das folgende Video erklärt, wann eine Pflegebedürftigkeit besteht und somit ein Anspruch auf Leistungen der Pflegeversicherung. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video erklärt, wann eine Pflegebedürftigkeit besteht und somit ein Anspruch auf Leistungen der Pflegeversicherung.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/pflegeversicherung",
   "license": "unklar - pruefen",
@@ -1432,7 +1752,7 @@
  {
   "id": 3162,
   "question": "Wie hilft die Selbsthilfe?",
-  "answer": "Erfahren Sie in diesem Video, was die Selbsthilfe ist und wie sie helfen kann. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Erfahren Sie in diesem Video, was die Selbsthilfe ist und wie sie helfen kann.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/selbsthilfe",
   "license": "unklar - pruefen",
@@ -1452,7 +1772,7 @@
  {
   "id": 3241,
   "question": "Was ist evidenzbasierte Medizin?",
-  "answer": "Das folgende Video erklärt, was evidenzbasierte Medizin ist und wie damit Behandlungsentscheidungen getroffen werden. Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Das folgende Video erklärt, was evidenzbasierte Medizin ist und wie damit Behandlungsentscheidungen getroffen werden.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/gesundheitskompetenz-digital-staerken",
   "license": "unklar - pruefen",

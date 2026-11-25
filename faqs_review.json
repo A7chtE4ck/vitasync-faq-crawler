@@ -1,15 +1,5 @@
 [
  {
-  "id": 46,
-  "question": "Was sollte ich noch wissen?",
-  "answer": "Schwere Allergien, die das Risiko einer lebensbedrohlichen anaphylaktischen Reaktion bergen, können im Notfalldatensatz auf der elektronischen Gesundheitskarte gespeichert werden. Mehr Informationen zur anaphylaktischen Reaktion lesen Sie auf gesundheitsinformation.de. Aktuelle Forschungen beschäftigen sich derzeit verstärkt mit dem Wechselspiel zwischen Immunsystem und Umwelteinflüssen. Aus den gewonnenen Erkenntnissen sollen neue Ideen zur Vorbeugung und Therapie von Allergien entwickelt werden. Weiterführende Informationen zu Allergien und Forschung finden Sie unter allergieinformationsdienst.de.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/allergien",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "no_overlap"
- },
- {
   "id": 59,
   "question": "Wie kann einer akuten Bronchitis vorgebeugt werden?",
   "answer": "Um einer Ansteckung vorzubeugen, gilt es – wie bei allen Atemwegsinfektionen – auf eine gute Hygiene zu achten: Regelmäßiges Händewaschen und sich möglichst nicht mit den Fingern ins Gesicht zu fassen, senkt das Ansteckungsrisiko deutlich. Um andere vor einer Ansteckung zu schützen, sind folgende Punkte wichtig: nicht in die Hand husten oder niesen, sondern in die Armbeuge benutzte Taschentücher direkt in den Müll werfen Abstand zu anderen Menschen halten auf Händedruck, Umarmungen oder Küsse verzichten eine Erkrankung möglichst zu Hause auskurieren Auch ein medizinischer Mund-Nasen-Schutz kann dabei helfen, sich selbst und andere vor einer Ansteckung mit den Viren zu schützen. Es gibt einige Studien, die die Wirksamkeit von beispielsweise Vitaminpräparaten, Probiotika, pflanzlichen Arzneimitteln, Gurgeln, ausreichendem Schlaf oder regelmäßigem Sport untersucht haben. Sie kamen jedoch zu keinem eindeutigen Ergebnis, ob diese Maßnahmen vor Atemwegsinfektionen schützen können.",
@@ -52,7 +42,7 @@
  {
   "id": 88,
   "question": "Was sind die Ursachen für Heuschnupfen?",
-  "answer": "Allergische Symptome entstehen durch eine Überreaktion. Der Körper reagiert überempfindlich auf eigentlich harmlose Substanzen wie Pollen (Allergene). Das Immunsystem wehrt sich dagegen mit einer Kettenreaktion: Es kämpft gegen das Allergen zunächst mit der Bildung von Antikörpern. Sie binden sich an bestimmte Zellen. Kommt es jetzt erneut zu Kontakt mit dem Allergen, können diese Zellen chemische Stoffe wie Histamin freisetzen. Diese wiederum lösen die allergischen Reaktionen wie Niesen oder Juckreiz aus. Video Was ist eine Allergie? Im folgenden Video erfahren Sie, wodurch eine Allergie ausgelöst werden kann und welche Symptome auftreten können. Dieses und weitere Videos gibt es auch auf YouTube Jetzt ansehen Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Allergische Symptome entstehen durch eine Überreaktion. Der Körper reagiert überempfindlich auf eigentlich harmlose Substanzen wie Pollen (Allergene). Das Immunsystem wehrt sich dagegen mit einer Kettenreaktion: Es kämpft gegen das Allergen zunächst mit der Bildung von Antikörpern. Sie binden sich an bestimmte Zellen. Kommt es jetzt erneut zu Kontakt mit dem Allergen, können diese Zellen chemische Stoffe wie Histamin freisetzen. Diese wiederum lösen die allergischen Reaktionen wie Niesen oder Juckreiz aus.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/heuschnupfen",
   "license": "unklar - pruefen",
@@ -90,16 +80,6 @@
   "review": "no_overlap"
  },
  {
-  "id": 166,
-  "question": "Was lässt sich mit einer Impfung erreichen?",
-  "answer": "Sowohl eine Impfung als auch eine durchgemachte Keuchhusten-Erkrankung verhindern nicht, dass man sich mit Keuchhusten anstecken kann. Da die Erkrankung bei geimpften Menschen jedoch leichter verläuft, empfiehlt die Ständige Impfkommission (STIKO) am Robert Koch-Institut allen Altersgruppen eine Impfung gegen Keuchhusten. Grundimmunisierung Empfohlen wird die Impfung ausdrücklich schon bei Säuglingen. Bei den ersten Impfungen spricht man von einer Grundimmunisierung. Wenn diese Grundimmunisierung im Kindesalter nicht erfolgt ist, kann sie bis ins Erwachsenenalter hinein nachgeholt werden. Die Grundimmunisierung besteht aus drei Impfdosen, die zu folgenden Zeitpunkten empfohlen werden: Impfung: ab dem vollendeten 2. Lebensmonat (ab der neunten Woche) Impfung: nach dem 4. Lebensmonat Impfung: nach dem 11. Lebensmonat. Auffrischungsimpfung Der Impfschutz soll in der Kindheit und Jugend zweimal zu den folgenden Zeitpunkten mit einem Kombinationsimpfstoff für Keuchhusten, Tetanus und Diphtherie aufgefrischt werden: im Alter von 5 bis 6 Jahren im Alter von 9 bis 17 Jahren Sobald die letzte Impfung gegen Keuchhusten mehr als zehn Jahre zurückliegt, empfehlen Medizinerinnen und Mediziner allen Erwachsenen eine einmalige Auffrischungsimpfung (als Kombinationsimpfung). Dies gilt auch, wenn sie als Kind oder in der Jugend bereits gegen Keuchhusten geimpft wurden. Wichtig zu wissen: Die STIKO empfiehlt seit März 2020 schwangeren Frauen eine Impfung gegen Keuchhusten zu Beginn des dritten Trimesters jeder Schwangerschaft. Bei einer erhöhten Wahrscheinlichkeit für eine Frühgeburt sollte die Impfung ins zweite Trimester vorgezogen werden. Damit sollen die Keuchhusten-Erkrankungen bei Neugeborenen und Säuglingen reduziert werden. Personen in Gesundheitsberufen wie Hebammen und Ärzteschaft sowie Menschen, die in Gemeinschaftseinrichtungen wie Kindergärten oder Altenheimen arbeiten, wird empfohlen, sich alle zehn Jahre gegen Keuchhusten impfen zu lassen. Enge Kontaktpersonen eines Säuglings wie die Großeltern, Babysitter oder Tagesmütter sollten spätestens vier Wochen vor der Geburt eine Auffrischungsimpfung erhalten. Davon ausgenommen sind nur Erwachsene, die in den letzten zehn Jahren bereits gegen Keuchhusten geimpft wurden.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/keuchhusten",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "dated_reference"
- },
- {
   "id": 169,
   "question": "Wie steckt man sich mit Hantaviren an?",
   "answer": "Hantaviren verharren in Mäusen und Ratten sowie in anderen kleinen Säugetieren. Diese Wirtstiere scheiden die Viren über Kot, Urin und Speichel aus. Je nach Umgebungsfaktoren wie Lufttemperatur, Luftfeuchtigkeit und Sonneneinstrahlung können die Viren in den Ausscheidungen bis zu 6 Wochen überdauern. Menschen stecken sich meistens darüber an, dass sie erregerhaltigen Staub einatmen oder dieser in Hautwunden gelangt. Auch eine Übertragung über Bisse oder verunreinigte Lebensmittel ist möglich. Gut zu wissen: In Deutschland vorkommende Hantaviren können nach derzeitigem Wissensstand nicht von Mensch zu Mensch übertragen werden. Erkrankte Personen sind daher nicht ansteckend. Welche Erreger verursachen eine Hantavirus-Erkrankung? Hantaviren kommen weltweit vor. Es gibt verschiedene Hantaviren, die ein ähnliches Krankheitsbild verursachen. Jeder Virustyp bevorzugt ein anderes Wirtstier. Deshalb treten bestimmte Hantavirus-Erkrankungen nur in den Regionen auf, wo diese Wirtstiere heimisch sind. In Deutschland sind vor allem das Puumalavirus und das Dobrava-Belgrad- Virus von Bedeutung. Hier ein Überblick über potenziell krankmachende Hantaviren: Puumalavirus Mehr als 90 Prozent aller Hantavirus-Erkrankungen werden in Deutschland durch Puumalaviren verursacht. Diese Viren kommen vor allem im Nordwesten, im Westen und im Süden von Deutschland vor. Wirtstier und Überträger ist die Rötelmaus. Rötelmäuse übertragen Hantaviren. Finden sie sehr viel Nahrung, vermehren sie sich stark und mit ihnen auch das Virus. Das Risiko, sich über einen Biss oder aufgewirbelten Kot zu infizieren, steigt. Dobrava-Belgrad-Virus Dobrava-Belgrad-Viren kommen vor allem im Norden und Osten Deutschlands vor. Wirtstier und Überträger ist die Brandmaus, die in den nördlichen und östlichen Landesteilen Deutschlands heimisch ist. Seoulvirus Diese Viren kommen in Zucht- und Wildratten vor. In Deutschland wurden bereits mehrere Ansteckungen mit diesem Virus beschrieben, wobei diese vermutlich vor allem im Umfeld von Rattenhaltern oder -züchtern auftreten können. Tulavirus Tulaviren werden durch Feldmäuse übertragen. Feldmäuse kommen überall in Deutschland vor. In Deutschland wurde die erste gesicherte Infektion 2019 nachgewiesen.",
@@ -120,16 +100,6 @@
   "review": "dated_reference"
  },
  {
-  "id": 236,
-  "question": "Was ist ein Disease Management Programm?",
-  "answer": "Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/diabetes-typ-2",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "no_overlap"
- },
- {
   "id": 286,
   "question": "Wie wird die Fruchtbarkeitsstörung festgestellt?",
   "answer": "Die Ursache für eine ungewollte Kinderlosigkeit kann beim Mann liegen, bei der Frau oder bei beiden. Deshalb ist es wichtig, dass sich beide Partner ärztlich untersuchen lassen. Dazu gehören: die Anamnese: ein ausführliches Gespräch mit der Ärztin oder dem Arzt körperliche Untersuchungen eine Blutprobe, mit der der Hormonspiegel im Blut bestimmt wird die Untersuchung einer Samenprobe eine Ultraschalluntersuchung der Gebärmutter, der Eierstöcke und der Eileiter",
@@ -142,7 +112,7 @@
  {
   "id": 363,
   "question": "Welche Ursachen hat die Psoriasis?",
-  "answer": "Die oberste Hautschicht (Epidermis) besteht aus hornbildenden Zellen, den Keratinozyten. Sie teilen sich, wandern an die Hautoberfläche, sterben dort ab und verhornen. Normalerweise dauert es etwa 4 Wochen, bis die Keratinozyten die oberste Hautschicht durchwandert haben und als tote Zellen abgestoßen werden. Bei einer Schuppenflechte kann dies jedoch innerhalb von 4 Tagen geschehen – das heißt, die Zellen teilen sich fast zehnmal so schnell. Die toten Zellen können dann nicht schnell genug abgestoßen werden. Dadurch wird die Haut an den betroffenen Stellen dicker und schuppt viel stärker als sonst. Der Grund dafür sind Autoimmunreaktionen. Dabei setzt ein überaktives Immunsystem vermehrt Botenstoffe (Zytokine) frei, die Entzündungsreaktionen auslösen. Zudem werden die Keratinozyten von einigen Botenstoffen angeregt, sich schneller zu vermehren. Entzündung und stärkere Durchblutung führen oft dazu, dass die Haut sich rötet. Video Was ist eine Autoimmunerkrankung? Im folgenden Video erhalten Sie grundlegende Informationen zum menschlichen Immunsystem und zu typischen Autoimmunerkrankungen. Dieses und weitere Videos gibt es auch auf YouTube Jetzt ansehen Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
+  "answer": "Die oberste Hautschicht (Epidermis) besteht aus hornbildenden Zellen, den Keratinozyten. Sie teilen sich, wandern an die Hautoberfläche, sterben dort ab und verhornen. Normalerweise dauert es etwa 4 Wochen, bis die Keratinozyten die oberste Hautschicht durchwandert haben und als tote Zellen abgestoßen werden. Bei einer Schuppenflechte kann dies jedoch innerhalb von 4 Tagen geschehen – das heißt, die Zellen teilen sich fast zehnmal so schnell. Die toten Zellen können dann nicht schnell genug abgestoßen werden. Dadurch wird die Haut an den betroffenen Stellen dicker und schuppt viel stärker als sonst. Der Grund dafür sind Autoimmunreaktionen. Dabei setzt ein überaktives Immunsystem vermehrt Botenstoffe (Zytokine) frei, die Entzündungsreaktionen auslösen. Zudem werden die Keratinozyten von einigen Botenstoffen angeregt, sich schneller zu vermehren. Entzündung und stärkere Durchblutung führen oft dazu, dass die Haut sich rötet.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/schuppenflechte-psoriasis",
   "license": "unklar - pruefen",
@@ -160,16 +130,6 @@
   "review": "no_overlap"
  },
  {
-  "id": 423,
-  "question": "Wie ist die Situation weltweit?",
-  "answer": "In einigen afrikanischen Ländern sind seit 2023 die Zahlen der Mpox-Fälle angestiegen. Dies hängt auch mit einer neuen Virusvariante zusammen, die sich vor allem in der Demokratischen Republik Kongo und benachbarten Ländern schnell ausgebreitet hat. Diese Virusvariante heißt Klade Ib und führt zu schwereren Erkrankungen. Die Weltgesundheitsorganisation (WHO) hat daher im August 2024 eine sogenannte gesundheitliche Notlage von internationaler Tragweite ausgerufen. Das ermöglicht betroffenen Ländern notwendige Maßnahmen zu ergreifen, um die weitere Ausbreitung zu verhindern. In Deutschland besteht durch die neue Mpox-Variante aktuell keine erhöhte Gefährdung.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/mpox",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "no_overlap"
- },
- {
   "id": 475,
   "question": "Wie häufig kommt es zu Windpocken?",
   "answer": "An Windpocken erkranken vor allem Kindergarten- und Schulkinder im Alter von 2 bis 10 Jahren. Auch Jugendliche oder Erwachsene, die nicht geimpft sind, können sich anstecken, wenn sie im Kindesalter keine Windpocken hatten. Die Ständige Impfkommission (STIKO) am Berliner Robert Koch-Institut empfiehlt die Impfung gegen Windpocken seit 2004. Da inzwischen die meisten Eltern der Empfehlung folgen und ihre Kinder impfen lassen, gibt es heute deutlich weniger Windpocken-Fälle. Erkrankten vor 2004 jährlich rund 750.000 Kinder und Erwachsene an Windpocken, wurden 2020 nur noch 11.300 Windpocken-Erkrankungen in Deutschland erfasst – etwa halb so viele wie im Vorjahr. Über 90 Prozent der Erkrankten waren ungeimpft. Dennoch zählen Windpocken weiterhin zu den häufigsten Kinderkrankheiten.",
@@ -178,16 +138,6 @@
   "license": "unklar - pruefen",
   "lang": "de",
   "review": "dated_reference"
- },
- {
-  "id": 483,
-  "question": "Was ist noch wichtig zu wissen?",
-  "answer": "Einige Magen-Darm-Infektionen sind meldepflichtige Krankheiten. Das bedeutet, dass die Ärztin oder der Arzt das örtliche Gesundheitsamt benachrichtigen muss. Meldepflicht besteht zum Beispiel bei einer nachgewiesenen Infektion mit Noroviren oder Rotaviren, Salmonellen oder Campylobacter. Generell meldepflichtig ist eine Magen-Darm-Infektion bei Kindern unter 6 Jahren, die in eine Gemeinschaftseinrichtung wie Kita oder Kindergarten gehen. Wenn beim Arztbesuch eine Infektion festgestellt wird, muss die Ärztin oder der Arzt sie innerhalb von 24 Stunden dem zuständigen Gesundheitsamt melden. Erst wenn das erkrankte Kind 2 Tage keinen Durchfall mehr hatte, darf es wieder in die Kita. So lässt sich vermeiden, dass andere Kinder auch krank werden. In Deutschland gibt es ein Infektionsschutzgesetz. Es soll dafür sorgen, dass übertragbaren Krankheiten vorgebeugt und eine Weiterverbreitung verhindert werden kann. Nach dem Gesetz dürfen Personen, die in Lebensmittelberufen arbeiten und bei denen der Verdacht auf eine Darminfektion besteht, die erkrankt sind oder Salmonellen haben, erst wieder arbeiten, wenn sich in drei untersuchten Stuhlproben keine Erreger mehr nachweisen lassen. Auch in den 4 bis 6 Wochen danach sollten sie sicherheitshalber besonders streng auf ihre Händehygiene am Arbeitsplatz achten.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/durchfall",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "no_overlap"
  },
  {
   "id": 506,
@@ -760,16 +710,6 @@
   "review": "dated_reference"
  },
  {
-  "id": 2713,
-  "question": "Wie entsteht eine Antibiotikaresistenz?",
-  "answer": "Dieses und weitere Videos gibt es auch auf YouTube Es gelten die dort bekanntgegebenen Datenschutzhinweise.",
-  "source": "gesund.bund.de (BMG)",
-  "url": "https://gesund.bund.de/antibiotikaresistenzen",
-  "license": "unklar - pruefen",
-  "lang": "de",
-  "review": "no_overlap"
- },
- {
   "id": 2723,
   "question": "Wie werden Verbraucherinnen und Verbraucher geschützt?",
   "answer": "Damit von Chemikalien in Kleidungsstücken keine gesundheitsschädliche Wirkung ausgeht, wurden für bestimmte Substanzen Verwendungsbeschränkungen und Verbote festgelegt. Die Hersteller müssen die Bestimmungen der Bedarfsgegenständeverordnung, der Chemikalienverbotsverordnung sowie der REACH-Verordnung und der Biozid-Verordnung eigenverantwortlich einhalten. Die Bundesländer überwachen die Einhaltung dieser Vorschriften durch die Untersuchung von Stichproben. Bei Textilien, die nach dem Stand der Technik hergestellt wurden, ist nicht von einer gesundheitsschädlichen Wirkung auszugehen. Jedoch kann auch die erlaubte Verwendung von Chemikalien unter Umständen mit Kontaktallergien einhergehen. Wenn man aber bedenkt, dass jeder Mensch ständig engen Hautkontakt zu Textilien hat, sind auch diese Kontaktallergien als selten einzustufen.",
@@ -972,7 +912,7 @@
  {
   "id": 3547,
   "question": "Notfallversorgung – was passiert nach dem Notruf?",
-  "answer": "In Notfällen ist schnelle Hilfe entscheidend. Für verschiedene Notsituationen steht rund um die Uhr Hilfe bereit. Mehr erfahren",
+  "answer": "In Notfällen ist schnelle Hilfe entscheidend. Für verschiedene Notsituationen steht rund um die Uhr Hilfe bereit.",
   "source": "gesund.bund.de (BMG)",
   "url": "https://gesund.bund.de/themen/retten-und-helfen",
   "license": "unklar - pruefen",

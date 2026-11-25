@@ -1,21 +1,22 @@
 {
   "input": 7496,
-  "clean": 7066,
+  "clean": 7034,
   "rejected": {
-    "video_teaser": 84,
+    "site_not_health_faq": 4,
+    "video_teaser": 78,
+    "context_dependent": 89,
     "navigation_or_link_teaser": 129,
-    "context_dependent": 64,
-    "too_short": 86,
+    "too_short": 95,
     "off_topic": 64,
     "duplicate_after_cleanup": 2,
     "language_mismatch": 1
   },
   "review_flagged_but_kept": {
-    "no_overlap": 142,
-    "dated_reference": 97
+    "no_overlap": 137,
+    "dated_reference": 96
   },
   "clean_by_source": {
-    "gesund.bund.de (BMG)": 3388,
+    "gesund.bund.de (BMG)": 3356,
     "Krebsinformationsdienst (DKFZ)": 1191,
     "CDC": 8,
     "NHS": 358,
@@ -27,7 +28,7 @@
     "Deutsche Krebshilfe": 1
   },
   "clean_by_lang": {
-    "de": 5079,
+    "de": 5047,
     "en": 1987
   }
 }

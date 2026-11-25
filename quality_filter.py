@@ -9,6 +9,8 @@ FIRST = re.compile(r"\b(I|my|me|I'm|you|your|ich|mein\w*|mir)\b", re.I)
 VAGUE_DE = re.compile(r"^(was ist mit|wie sieht das angebot|woran kann man sich|und wie|wie funktioniert das\?)", re.I)
 OFFTOPIC_Q = re.compile(r"ukrain|flüchtling|refugee|\bvisa\b|survey|slider|accordion|spenden(nachweis|bescheinigung|quittung|aktion)|nutzungsbedingung|\bgrants?\b|audit|funding|small business|\bcamp\b|summer course|cooperative agreement|\bIRB\b|nutritionday|medical devices technical", re.I)
 ADMIN_URL = re.compile(r"/(museum|wcms|grants|contracts|ccindex|spenderservice|spenden|drugservice|als/(join|abouttheregistry)|data-presentation|already-have-grant)\b|slider|faq-module", re.I)
+SITE_Q = re.compile(r"^notruf\b|gesund\.bund\.de|\b(erheben|speichern|verarbeiten) wir\b|weitergabe ihrer daten|\bunsere[nrms]? (website|seite|daten)\b", re.I)
+GENERIC_Q = re.compile(r"^(was sollte ich noch wissen|was ist (noch )?(wichtig|wissenswert)\w*( zu wissen)?|was sollte man noch .{0,40}wissen|was sollten \w+ noch .{0,60}wissen|wie hoch ist das ansteckungsrisiko|wie ist die situation weltweit|was machen ärztinnen oder ärzte|wie sieht die medizinische therapie aus|wie geht es nach der behandlung weiter|wann sollte man sich ärztlich untersuchen lassen|wer sollte sich impfen lassen|wie können sich gefährdete personen schützen|wie kann man sich bei kontakt mit betroffenen schützen|wie verhält man sich nach kontakt mit einer erkrankten person|was lässt sich mit einer impfung erreichen|worauf sollten erkrankte und eltern erkrankter kinder achten|welche untersuchungsverfahren können zum einsatz kommen|ab wann und wie lange ist man für andere ansteckend|wie steckt man sich mit den viren an|wie werden die viren übertragen|was gilt für den besuch von gemeinschaftseinrichtungen)\??$", re.I)
 NAV_Q = re.compile(r"wo finde ich|wohin wende|wohin gehen|ansprechpartner|weitere informationen|wo gibt es|where can i find|how can i learn more|how do i contact|what if i need more help|woran kann man sich orientieren|wer hilft", re.I)
 VIDEO_A = re.compile(r"^(im folgenden video|erfahren sie in diesem video|das folgende video|in diesem video|watch |in this video|dieses video)", re.I)
 LINKY_A = re.compile(r"^(artikel |ausführliche informationen|weitere informationen|mehr informationen|das portal |auf der website)", re.I)
@@ -33,7 +35,13 @@ def norm_q(q):
     q = re.sub(r"\s+([,.;:?!])", r"\1", q)
     return re.sub(r"\s+", " ", q).strip()
 
+VIDEO_WIDGET = re.compile(r"\s*Video\s[^?]{0,200}\?.{0,500}?Dieses und weitere Videos gibt es auch auf YouTube (?:Jetzt ansehen )?Es gelten die dort bekanntgegebenen Datenschutzhinweise\.", re.S)
+VIDEO_TAIL = re.compile(r"\s*Dieses und weitere Videos gibt es auch auf YouTube (?:Jetzt ansehen )?Es gelten die dort bekanntgegebenen Datenschutzhinweise\.")
+
 def norm_a(a):
+    a = VIDEO_WIDGET.sub("", a)
+    a = VIDEO_TAIL.sub("", a)
+    a = re.sub(r"\s*(Mehr erfahren|Jetzt ansehen|Arzt- und Krankenhaussuche)\s*$", "", a)
     a = re.split(r"\bZum Weiterlesen\b", a)[0]
     a = re.sub(r"\[?Symbolbild\]?\.?", "", a)
     a = re.sub(r"\bBild: ©[^.]*\.?", "", a)
@@ -43,6 +51,7 @@ def norm_a(a):
     a = re.sub(r"^(Gut zu wissen|Wichtig|Tipp|Hinweis)\s*[:\-–]?\s+", "", a)
     a = re.sub(r"\s*\bWeiterlesen\b\s*", " ", a)
     a = re.sub(r"\s+([,.;:?!])", r"\1", a)
+    a = re.sub(r"\s+Video\s+[A-ZÄÖÜ][^?]{0,150}\?\s+(Das folgende Video|Im folgenden Video|Erfahren Sie in diesem Video|In diesem Video)[^.]*\.\s*$", "", a)
     return re.sub(r"\s+", " ", a).strip()
 
 def slug_tokens(url):
@@ -52,6 +61,8 @@ def slug_tokens(url):
 def check(e):
     q, a, url = e["question"], e["answer"], e["url"]
     if (ADMIN_URL.search(url) and "/newsletter/" not in url) or OFFTOPIC_Q.search(q): return "off_topic"
+    if SITE_Q.search(q): return "site_not_health_faq"
+    if GENERIC_Q.search(q): return "context_dependent"
     if VIDEO_A.search(a): return "video_teaser"
     if LINKY_A.search(a) or NAV_Q.search(q) or len(URL.findall(a)) >= 3: return "navigation_or_link_teaser"
     if BOILER.search(a): return "boilerplate"

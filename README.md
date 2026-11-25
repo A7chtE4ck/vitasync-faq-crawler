@@ -1,6 +1,6 @@
 # vitasync-faq-crawler
 
-Sammelt deutschsprachige Gesundheits-FAQs für die VitaSync-RAG-Datenbank.
+Sammelt deutsch- und englischsprachige Gesundheits-FAQs (Antworten in Originalsprache, Feld `lang`) für die VitaSync-RAG-Datenbank.
 
 **Starten:** Tab *Actions* → *FAQ crawlen* → *Run workflow*. Ergebnis: `faqs.json` + `report.json` im Repo (und als Artifact).
 

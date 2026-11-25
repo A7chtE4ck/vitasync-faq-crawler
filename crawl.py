@@ -17,14 +17,23 @@ _robots = {}
 
 # ---------- Filter (an R1-R6 anpassen!) ----------
 RE_PII = re.compile(r"[\w.+-]+@[\w-]+\.[\w.]+|(?:\+|00)\d[\d /().-]{7,}\d|\b0\d{2,5}[ /-]?\d{4,}\b|\b[A-Z]{2}\d{2}(?: ?\d{4}){3,}")
-RE_DOSE = re.compile(r"\b\d+(?:[.,]\d+)?\s?(?:mg|µg|mcg|ml|ie|i\.e\.|mmol)\b|\bdosierung\b|\btabletten?\b|\bpro tag einnehmen\b", re.I)
-RE_DIAG = re.compile(r"\b(?:sie haben|sie leiden an|bei ihnen liegt)\b", re.I)
+RE_DOSE = re.compile(r"\b\d+(?:[.,]\d+)?\s?(?:mg|µg|mcg|ml|ie|i\.e\.|mmol|iu)\b|\bdosierung\b|\bdosage\b|\btabletten?\b|\btablets?\b|\bpro tag einnehmen\b", re.I)
+RE_DIAG = re.compile(r"\b(?:sie haben|sie leiden an|bei ihnen liegt|you are diagnosed with|you suffer from|you have been diagnosed)\b", re.I)
+EN_WORDS = {"the","and","is","are","of","to","in","that","for","with","can","may","your","or","it","be","not","this"}
 DE_WORDS = {"der","die","das","und","ist","nicht","mit","von","zu","den","ein","eine","auf","für","sich","auch","wird","können"}
 
 
-def is_german(t):
+def detect_lang(t):
     w = re.findall(r"[a-zäöüß]+", t.lower())
-    return len(w) > 0 and sum(x in DE_WORDS for x in w) / len(w) > 0.12
+    if not w:
+        return None
+    de = sum(x in DE_WORDS for x in w) / len(w)
+    en = sum(x in EN_WORDS for x in w) / len(w)
+    if de > 0.12 and de > en:
+        return "de"
+    if en > 0.12 and en > de:
+        return "en"
+    return None
 
 
 def clean(raw):
@@ -153,20 +162,21 @@ def extract(soup):
 def accept(q, a):
     if len(q.split()) < 5 or len(a.split()) < 15:
         STATS["too_short"] += 1
-        return False
+        return None
     if not q.rstrip().endswith("?"):
         STATS["not_question"] += 1
-        return False
+        return None
     if RE_PII.search(q + " " + a):
         STATS["dropped_pii"] += 1
-        return False
+        return None
     if RE_DOSE.search(a) or RE_DIAG.search(a):
         STATS["dropped_r1_r6"] += 1
-        return False
-    if "de" in ST["languages"] and not is_german(a):
+        return None
+    lang = detect_lang(a)
+    if lang not in ST["languages"]:
         STATS["dropped_language"] += 1
-        return False
-    return True
+        return None
+    return lang
 
 
 # ---------- Dedup ----------
@@ -182,7 +192,7 @@ def mh(q):
     return m
 
 
-def add(q, a, src, url):
+def add(q, a, src, url, lang):
     m = mh(q)
     hit = LSH.query(m)
     if hit:
@@ -192,7 +202,7 @@ def add(q, a, src, url):
             e.update(answer=a, url=url)
         return
     LSH.insert(str(len(KEPT)), m)
-    KEPT.append({"question": q, "answer": a, "source": src["name"], "url": url, "license": src["license"], "lang": "de"})
+    KEPT.append({"question": q, "answer": a, "source": src["name"], "url": url, "license": src["license"], "lang": lang})
 
 
 def main():
@@ -216,8 +226,9 @@ def main():
                 for q, a in extract(soup):
                     q, a = clean(q), truncate(clean(a))
                     STATS["raw_pairs"] += 1
-                    if accept(q, a):
-                        add(q, a, src, url)
+                    lang = accept(q, a)
+                    if lang:
+                        add(q, a, src, url, lang)
                 if len(seen) < src["max_pages"] * 5:  # Link-Fallback, bleibt im Scope
                     for l in soup.find_all("a", href=True):
                         u = urldefrag(urljoin(url, l["href"]))[0]

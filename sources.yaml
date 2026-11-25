@@ -6,7 +6,7 @@ settings:
   delay_seconds: 1.5
   max_total_pages: 6000
   target_count: 10000
-  languages: [de]
+  languages: [de, en]
 sources:
   - {name: "gesund.bund.de (BMG)", base: "https://gesund.bund.de", prefixes: ["/"], max_pages: 1200, license: "unklar - pruefen"}
   - {name: "Krebsinformationsdienst (DKFZ)", base: "https://www.krebsinformationsdienst.de", prefixes: ["/"], max_pages: 1200, license: "unklar - pruefen"}
@@ -18,3 +18,9 @@ sources:
   - {name: "Patienten-Information.de (AeZQ)", base: "https://www.patienten-information.de", prefixes: ["/"], max_pages: 500, license: "unklar - pruefen"}
   - {name: "kindergesundheit-info.de (BZgA)", base: "https://www.kindergesundheit-info.de", prefixes: ["/"], max_pages: 600, license: "unklar - pruefen"}
   - {name: "Deutsche Krebshilfe", base: "https://www.krebshilfe.de", prefixes: ["/"], max_pages: 500, license: "unklar - pruefen"}
+  # Englische Quellen (Antworten bleiben auf Englisch)
+  - {name: "CDC", base: "https://www.cdc.gov", prefixes: ["/"], max_pages: 1500, license: "Public Domain (US-Regierung), Hinweise der Seite beachten"}
+  - {name: "NHS", base: "https://www.nhs.uk", prefixes: ["/conditions/", "/live-well/", "/medicines/", "/pregnancy/"], max_pages: 1500, license: "Open Government Licence v3.0"}
+  - {name: "WHO Q&A", base: "https://www.who.int", prefixes: ["/news-room/questions-and-answers/", "/health-topics/"], max_pages: 800, license: "CC BY-NC-SA 3.0 IGO (nicht kommerziell!)"}
+  - {name: "MedlinePlus (NIH)", base: "https://medlineplus.gov", prefixes: ["/"], max_pages: 1500, license: "Public Domain (NLM), Hinweise der Seite beachten"}
+  - {name: "ECDC", base: "https://www.ecdc.europa.eu", prefixes: ["/en/"], max_pages: 600, license: "CC BY 4.0 (laut ECDC-Copyright-Hinweis, pruefen)"}
